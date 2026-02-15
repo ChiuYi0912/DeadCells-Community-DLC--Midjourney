@@ -1,0 +1,2897 @@
+
+backGarden.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/collectorBackEmpty
+  rotate: false
+  xy: 1, 1
+  size: 484, 262
+  orig: 484, 265
+  offset: 0, 0
+  index: 0
+collectorBack
+  rotate: false
+  xy: 488, 1
+  size: 483, 262
+  orig: 484, 265
+  offset: 0, 0
+  index: 0
+treasureAltar
+  rotate: false
+  xy: 974, 1
+  size: 312, 144
+  orig: 312, 144
+  offset: 0, 0
+  index: 0
+eliteRoomBack
+  rotate: false
+  xy: 1289, 1
+  size: 312, 144
+  orig: 312, 144
+  offset: 0, 0
+  index: 0
+HealFlaskBack
+  rotate: false
+  xy: 1604, 1
+  size: 312, 144
+  orig: 312, 144
+  offset: 0, 0
+  index: 0
+foundry
+  rotate: false
+  xy: 974, 148
+  size: 311, 312
+  orig: 312, 312
+  offset: 0, 0
+  index: 0
+mushrooms 
+  rotate: false
+  xy: 1288, 148
+  size: 299, 334
+  orig: 300, 340
+  offset: 0, 0
+  index: 0
+alcoveEntrance
+  rotate: false
+  xy: 1590, 148
+  size: 288, 335
+  orig: 288, 336
+  offset: 0, 0
+  index: 0
+foundryLight1
+  rotate: false
+  xy: 1, 266
+  size: 275, 308
+  orig: 312, 312
+  offset: 1, 0
+  index: 0
+foundryLight2
+  rotate: false
+  xy: 279, 266
+  size: 274, 73
+  orig: 310, 310
+  offset: 31, 145
+  index: 0
+eliteRoomFront
+  rotate: false
+  xy: 556, 266
+  size: 270, 37
+  orig: 312, 144
+  offset: 9, 0
+  index: 0
+alcoveEntranceGlow
+  rotate: false
+  xy: 556, 306
+  size: 262, 336
+  orig: 288, 336
+  offset: 11, 0
+  index: 0
+exitDoor
+  rotate: false
+  xy: 279, 342
+  size: 240, 144
+  orig: 240, 144
+  offset: 0, 0
+  index: 0
+exitDoorPrisonDepths
+  rotate: false
+  xy: 279, 489
+  size: 240, 120
+  orig: 240, 120
+  offset: 0, 0
+  index: 0
+foundryBack
+  rotate: false
+  xy: 1, 577
+  size: 234, 86
+  orig: 312, 312
+  offset: 27, 226
+  index: 0
+bg/clockMoonBloom
+  rotate: false
+  xy: 238, 612
+  size: 231, 280
+  orig: 262, 336
+  offset: 23, 33
+  index: 0
+exitDoorCollector
+  rotate: false
+  xy: 1, 666
+  size: 210, 120
+  orig: 216, 120
+  offset: 3, 0
+  index: 0
+workInProgress
+  rotate: false
+  xy: 1, 789
+  size: 185, 165
+  orig: 192, 168
+  offset: 3, 0
+  index: 0
+alchemyTable
+  rotate: false
+  xy: 821, 463
+  size: 177, 82
+  orig: 192, 96
+  offset: 15, 0
+  index: 0
+EliteTombstoneLight
+  rotate: false
+  xy: 1001, 463
+  size: 168, 110
+  orig: 168, 110
+  offset: 0, 0
+  index: 0
+EliteTombstone
+  rotate: false
+  xy: 821, 548
+  size: 168, 110
+  orig: 168, 110
+  offset: 0, 0
+  index: 0
+smokeMid
+  rotate: false
+  xy: 472, 645
+  size: 168, 88
+  orig: 168, 96
+  offset: 0, 0
+  index: 0
+smokeR
+  rotate: false
+  xy: 643, 645
+  size: 168, 88
+  orig: 168, 96
+  offset: 0, 0
+  index: 0
+smokeS
+  rotate: false
+  xy: 1172, 485
+  size: 168, 71
+  orig: 168, 96
+  offset: 0, 0
+  index: 0
+chestBasicRockBack
+  rotate: false
+  xy: 1343, 485
+  size: 168, 60
+  orig: 168, 60
+  offset: 0, 0
+  index: 0
+chestMxRockBack
+  rotate: false
+  xy: 1514, 486
+  size: 168, 60
+  orig: 168, 60
+  offset: 0, 0
+  index: 0
+chestRockBack
+  rotate: false
+  xy: 1343, 485
+  size: 168, 60
+  orig: 168, 60
+  offset: 0, 0
+  index: 0
+chestTwRockBack
+  rotate: false
+  xy: 1343, 485
+  size: 168, 60
+  orig: 168, 60
+  offset: 0, 0
+  index: 0
+smokeL
+  rotate: false
+  xy: 1881, 148
+  size: 161, 88
+  orig: 168, 96
+  offset: 7, 0
+  index: 0
+eliteLogoBack
+  rotate: false
+  xy: 821, 306
+  size: 150, 142
+  orig: 150, 142
+  offset: 0, 0
+  index: 0
+teleportAltar
+  rotate: false
+  xy: 1881, 239
+  size: 147, 117
+  orig: 148, 125
+  offset: 0, 0
+  index: 0
+dailyRunDoor
+  rotate: false
+  xy: 1881, 359
+  size: 144, 168
+  orig: 144, 168
+  offset: 0, 0
+  index: 0
+PortalBackOut_0
+  rotate: false
+  xy: 1343, 548
+  size: 144, 120
+  orig: 144, 120
+  offset: 0, 0
+  index: 0
+PortalBackIn_0
+  rotate: false
+  xy: 1172, 559
+  size: 144, 120
+  orig: 144, 120
+  offset: 0, 0
+  index: 0
+chestBasicRockFront
+  rotate: false
+  xy: 829, 266
+  size: 142, 30
+  orig: 168, 60
+  offset: 14, 0
+  index: 0
+chestRockFront
+  rotate: false
+  xy: 829, 266
+  size: 142, 30
+  orig: 168, 60
+  offset: 14, 0
+  index: 0
+chestTwRockFront
+  rotate: false
+  xy: 992, 576
+  size: 142, 30
+  orig: 168, 60
+  offset: 14, 0
+  index: 0
+chestMxRockFront
+  rotate: false
+  xy: 992, 609
+  size: 142, 30
+  orig: 168, 60
+  offset: 14, 0
+  index: 0
+bg/Moon
+  rotate: false
+  xy: 992, 642
+  size: 140, 140
+  orig: 142, 142
+  offset: 1, 2
+  index: 0
+foundryCellsContainer
+  rotate: false
+  xy: 814, 661
+  size: 140, 82
+  orig: 140, 82
+  offset: 0, 0
+  index: 0
+alambic
+  rotate: false
+  xy: 1685, 486
+  size: 134, 105
+  orig: 198, 136
+  offset: 64, 0
+  index: 0
+alambicBroken
+  rotate: false
+  xy: 1490, 549
+  size: 134, 71
+  orig: 198, 136
+  offset: 64, 0
+  index: 0
+dailyRunDoorGlow
+  rotate: false
+  xy: 1822, 530
+  size: 132, 131
+  orig: 144, 168
+  offset: 6, 0
+  index: 0
+foundryHammerBot
+  rotate: false
+  xy: 1627, 594
+  size: 130, 53
+  orig: 130, 53
+  offset: 0, 0
+  index: 0
+foundryHammerTop
+  rotate: false
+  xy: 1919, 1
+  size: 122, 111
+  orig: 122, 111
+  offset: 0, 0
+  index: 0
+alcove_1
+  rotate: false
+  xy: 1490, 623
+  size: 120, 119
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+alcove_0
+  rotate: false
+  xy: 1319, 671
+  size: 120, 119
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+stampCeilingBig_0
+  rotate: false
+  xy: 1135, 682
+  size: 120, 48
+  orig: 120, 48
+  offset: 0, 0
+  index: 0
+alcove_2
+  rotate: false
+  xy: 1135, 733
+  size: 119, 119
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+chestTwOpen
+  rotate: false
+  xy: 1613, 650
+  size: 114, 80
+  orig: 114, 81
+  offset: 0, 0
+  index: 0
+chestMxOpen
+  rotate: false
+  xy: 1730, 664
+  size: 114, 80
+  orig: 114, 81
+  offset: 0, 0
+  index: 0
+alcoveGlow_0
+  rotate: false
+  xy: 1613, 733
+  size: 112, 107
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+alcoveGlow_1
+  rotate: false
+  xy: 1442, 745
+  size: 112, 107
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+alcoveGlow_2
+  rotate: false
+  xy: 1257, 793
+  size: 111, 107
+  orig: 120, 120
+  offset: 0, 0
+  index: 0
+chestOpen
+  rotate: false
+  xy: 1847, 664
+  size: 109, 81
+  orig: 109, 81
+  offset: 0, 0
+  index: 0
+chestBasicOpen
+  rotate: false
+  xy: 1728, 747
+  size: 108, 77
+  orig: 109, 81
+  offset: 0, 0
+  index: 0
+exitGrid/exitGrid_0001
+  rotate: false
+  xy: 1839, 748
+  size: 104, 85
+  orig: 142, 120
+  offset: 38, 2
+  index: 0
+floorJunk/bridgeJunk
+  rotate: false
+  xy: 1728, 827
+  size: 103, 56
+  orig: 103, 56
+  offset: 0, 0
+  index: 0
+bg/sun
+  rotate: false
+  xy: 1946, 748
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: 0
+timeDoorLightOffGlow
+  rotate: false
+  xy: 1834, 836
+  size: 96, 107
+  orig: 96, 107
+  offset: 0, 0
+  index: 0
+timeDoorLightOnGlow
+  rotate: false
+  xy: 1933, 849
+  size: 96, 107
+  orig: 96, 107
+  offset: 0, 0
+  index: 0
+smallDoorMetaFront
+  rotate: false
+  xy: 1557, 843
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+homonculusFlushFg
+  rotate: false
+  xy: 1656, 886
+  size: 96, 72
+  orig: 96, 72
+  offset: 0, 0
+  index: 0
+billboardBig_7
+  rotate: false
+  xy: 1755, 946
+  size: 96, 71
+  orig: 96, 72
+  offset: 0, 1
+  index: 0
+billboardBig_5
+  rotate: false
+  xy: 1371, 855
+  size: 96, 71
+  orig: 96, 72
+  offset: 0, 1
+  index: 0
+chestBasicClosed
+  rotate: false
+  xy: 1854, 959
+  size: 96, 70
+  orig: 96, 70
+  offset: 0, 0
+  index: 0
+billboardBig_1
+  rotate: false
+  xy: 472, 736
+  size: 96, 69
+  orig: 96, 72
+  offset: 0, 2
+  index: 0
+billboardBig_0
+  rotate: false
+  xy: 571, 736
+  size: 96, 69
+  orig: 96, 72
+  offset: 0, 2
+  index: 0
+groundHole
+  rotate: false
+  xy: 670, 736
+  size: 96, 48
+  orig: 96, 48
+  offset: 0, 0
+  index: 0
+woodDoorMeta
+  rotate: false
+  xy: 769, 746
+  size: 95, 91
+  orig: 96, 96
+  offset: 0, 0
+  index: 0
+billboardBig_4
+  rotate: false
+  xy: 670, 787
+  size: 95, 71
+  orig: 96, 72
+  offset: 0, 1
+  index: 0
+billboardBig_6
+  rotate: false
+  xy: 867, 746
+  size: 95, 71
+  orig: 96, 72
+  offset: 0, 1
+  index: 0
+chestMxClosed
+  rotate: false
+  xy: 965, 785
+  size: 95, 70
+  orig: 96, 70
+  offset: 1, 0
+  index: 0
+chestTwClosed
+  rotate: false
+  xy: 867, 820
+  size: 95, 70
+  orig: 96, 70
+  offset: 1, 0
+  index: 0
+billboardBig_3
+  rotate: false
+  xy: 768, 840
+  size: 95, 69
+  orig: 96, 72
+  offset: 1, 1
+  index: 0
+billboardBig_2
+  rotate: false
+  xy: 1063, 855
+  size: 95, 69
+  orig: 96, 72
+  offset: 1, 2
+  index: 0
+chestTop
+  rotate: false
+  xy: 1953, 959
+  size: 91, 38
+  orig: 91, 38
+  offset: 0, 0
+  index: 0
+chestBot
+  rotate: false
+  xy: 1470, 855
+  size: 84, 38
+  orig: 84, 38
+  offset: 0, 0
+  index: 0
+dailyRunDoorClock
+  rotate: false
+  xy: 1470, 896
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: 0
+smallDoorMetaBack
+  rotate: false
+  xy: 1959, 530
+  size: 80, 80
+  orig: 96, 96
+  offset: 16, 0
+  index: 0
+blackBeam_topLeft_0
+  rotate: false
+  xy: 1959, 613
+  size: 74, 98
+  orig: 74, 98
+  offset: 0, 0
+  index: 0
+blackBeam_topRight_0
+  rotate: false
+  xy: 1161, 855
+  size: 74, 98
+  orig: 74, 98
+  offset: 0, 0
+  index: 0
+keyDoorDistillery
+  rotate: false
+  xy: 1953, 1000
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+collectorDoor
+  rotate: false
+  xy: 965, 858
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+prisonBossDoor
+  rotate: false
+  xy: 866, 893
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+magicDoorGradient
+  rotate: false
+  xy: 1553, 942
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+magicDoor
+  rotate: false
+  xy: 1040, 927
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+goldDoor
+  rotate: false
+  xy: 941, 957
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+keyDoor
+  rotate: false
+  xy: 1628, 961
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+littleBlackBeam_topRight_0
+  rotate: false
+  xy: 1755, 886
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+stampCeilingMedium_0
+  rotate: false
+  xy: 1238, 903
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+woodenCornerLeft
+  rotate: false
+  xy: 1703, 1020
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_18
+  rotate: false
+  xy: 1778, 1020
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_20
+  rotate: false
+  xy: 1853, 1032
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+roofMoss_0
+  rotate: false
+  xy: 1313, 929
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_19
+  rotate: false
+  xy: 1238, 954
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_16
+  rotate: false
+  xy: 1388, 929
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_21
+  rotate: false
+  xy: 1463, 979
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+floorStamp_17
+  rotate: false
+  xy: 1115, 956
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+woodenCornerRight
+  rotate: false
+  xy: 1313, 980
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+littleBlackBeam_topLeft_0
+  rotate: false
+  xy: 1388, 980
+  size: 72, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+stoneWall_0
+  rotate: false
+  xy: 472, 612
+  size: 72, 24
+  orig: 72, 24
+  offset: 0, 0
+  index: 0
+stoneWall_3
+  rotate: false
+  xy: 1919, 115
+  size: 72, 24
+  orig: 72, 24
+  offset: 0, 0
+  index: 0
+stoneWall_1
+  rotate: false
+  xy: 1959, 714
+  size: 72, 24
+  orig: 72, 24
+  offset: 0, 0
+  index: 0
+stoneWall_2
+  rotate: false
+  xy: 1463, 1030
+  size: 72, 24
+  orig: 72, 24
+  offset: 0, 0
+  index: 0
+panFire_1
+  rotate: false
+  xy: 1172, 463
+  size: 72, 17
+  orig: 72, 21
+  offset: 0, 0
+  index: 0
+billboardMedium_2
+  rotate: false
+  xy: 1538, 1041
+  size: 71, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+billboardMedium_3
+  rotate: false
+  xy: 1612, 1060
+  size: 71, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+billboardMedium_5
+  rotate: false
+  xy: 1190, 1005
+  size: 71, 48
+  orig: 72, 48
+  offset: 0, 0
+  index: 0
+flagMetaObject
+  rotate: false
+  xy: 1115, 1007
+  size: 70, 167
+  orig: 72, 168
+  offset: 1, 0
+  index: 0
+smallDoorMetaRuneOn
+  rotate: false
+  xy: 1016, 1026
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: 0
+billboardMedium_0
+  rotate: false
+  xy: 1686, 1071
+  size: 70, 47
+  orig: 72, 48
+  offset: 0, 1
+  index: 0
+billboardMedium_4
+  rotate: false
+  xy: 1063, 785
+  size: 69, 47
+  orig: 72, 48
+  offset: 2, 1
+  index: 0
+billboardMedium_1
+  rotate: false
+  xy: 1759, 1071
+  size: 69, 46
+  orig: 72, 48
+  offset: 2, 0
+  index: 0
+timeDoor
+  rotate: false
+  xy: 1831, 1083
+  size: 68, 96
+  orig: 72, 96
+  offset: 4, 0
+  index: 0
+exitGrid/exitGrid_0000
+  rotate: false
+  xy: 1759, 1120
+  size: 66, 91
+  orig: 142, 120
+  offset: 38, 0
+  index: 0
+exitGrid/exitGrid_0002
+  rotate: false
+  xy: 1902, 1099
+  size: 66, 84
+  orig: 140, 118
+  offset: 37, 5
+  index: 0
+stampWallBig_5
+  rotate: false
+  xy: 1828, 1182
+  size: 66, 63
+  orig: 66, 63
+  offset: 0, 0
+  index: 0
+wallJunk/shelf_2
+  rotate: false
+  xy: 1371, 793
+  size: 66, 29
+  orig: 66, 29
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_33
+  rotate: false
+  xy: 1656, 843
+  size: 66, 28
+  orig: 66, 28
+  offset: 0, 0
+  index: 0
+exitGrid/exitGrid_0013
+  rotate: false
+  xy: 1371, 825
+  size: 66, 23
+  orig: 140, 118
+  offset: 37, 69
+  index: 0
+exitGrid/exitGrid_0014
+  rotate: false
+  xy: 1971, 1099
+  size: 66, 22
+  orig: 140, 118
+  offset: 37, 70
+  index: 0
+exitGrid/exitGrid_0015
+  rotate: false
+  xy: 1971, 1124
+  size: 66, 21
+  orig: 140, 118
+  offset: 37, 70
+  index: 0
+exitGrid/exitGrid_0003
+  rotate: false
+  xy: 1971, 1148
+  size: 64, 87
+  orig: 140, 118
+  offset: 39, 5
+  index: 0
+exitGrid/exitGrid_0004
+  rotate: false
+  xy: 1897, 1186
+  size: 64, 81
+  orig: 140, 118
+  offset: 39, 11
+  index: 0
+exitGrid/exitGrid_0005
+  rotate: false
+  xy: 1964, 1238
+  size: 64, 74
+  orig: 140, 118
+  offset: 39, 18
+  index: 0
+exitGrid/exitGrid_0006
+  rotate: false
+  xy: 472, 808
+  size: 64, 67
+  orig: 140, 118
+  offset: 39, 25
+  index: 0
+exitGrid/exitGrid_0007
+  rotate: false
+  xy: 539, 808
+  size: 64, 59
+  orig: 140, 118
+  offset: 39, 33
+  index: 0
+exitGrid/exitGrid_0008
+  rotate: false
+  xy: 606, 861
+  size: 64, 50
+  orig: 140, 118
+  offset: 39, 42
+  index: 0
+exitGrid/exitGrid_0009
+  rotate: false
+  xy: 539, 870
+  size: 64, 42
+  orig: 140, 118
+  offset: 39, 50
+  index: 0
+exitGrid/exitGrid_0010
+  rotate: false
+  xy: 472, 878
+  size: 64, 37
+  orig: 140, 118
+  offset: 39, 55
+  index: 0
+exitGrid/exitGrid_0011
+  rotate: false
+  xy: 673, 861
+  size: 64, 31
+  orig: 140, 118
+  offset: 39, 61
+  index: 0
+exitGrid/exitGrid_0012
+  rotate: false
+  xy: 673, 895
+  size: 64, 27
+  orig: 140, 118
+  offset: 39, 65
+  index: 0
+stampWallBig_3
+  rotate: false
+  xy: 606, 914
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: 0
+exitSide
+  rotate: false
+  xy: 539, 915
+  size: 61, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: 0
+wallJunk/shelf_0
+  rotate: false
+  xy: 606, 808
+  size: 61, 30
+  orig: 61, 30
+  offset: 0, 0
+  index: 0
+wallJunk/shelf_1
+  rotate: false
+  xy: 740, 912
+  size: 61, 23
+  orig: 61, 23
+  offset: 0, 0
+  index: 0
+wallJunk/wallJunk_15
+  rotate: false
+  xy: 804, 912
+  size: 59, 72
+  orig: 59, 72
+  offset: 0, 0
+  index: 0
+foundryBellowsTop
+  rotate: false
+  xy: 1258, 682
+  size: 58, 10
+  orig: 58, 10
+  offset: 0, 0
+  index: 0
+stampWallBig_2
+  rotate: false
+  xy: 1258, 695
+  size: 57, 51
+  orig: 57, 51
+  offset: 0, 0
+  index: 0
+smallDoorMeta_2
+  rotate: false
+  xy: 671, 925
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 5
+  index: 0
+smallDoorMeta_4
+  rotate: false
+  xy: 603, 982
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 4
+  index: 0
+smallDoorMeta_3
+  rotate: false
+  xy: 729, 938
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 4
+  index: 0
+smallDoorMeta_1
+  rotate: false
+  xy: 661, 1000
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 5
+  index: 0
+smallDoorMeta_0
+  rotate: false
+  xy: 787, 987
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 5
+  index: 0
+smallDoorMetaNoCell
+  rotate: false
+  xy: 719, 1013
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 5
+  index: 0
+smallDoorMetaGradient
+  rotate: false
+  xy: 845, 992
+  size: 55, 72
+  orig: 55, 96
+  offset: 0, 5
+  index: 0
+stampWallBig_0
+  rotate: false
+  xy: 1760, 594
+  size: 54, 66
+  orig: 54, 66
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_2
+  rotate: false
+  xy: 1627, 549
+  size: 54, 29
+  orig: 54, 29
+  offset: 0, 0
+  index: 0
+dailyRunDoorRight
+  rotate: false
+  xy: 777, 1062
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: 0
+dailyRunDoorLeft
+  rotate: false
+  xy: 903, 1056
+  size: 53, 113
+  orig: 53, 113
+  offset: 0, 0
+  index: 0
+stampWallBig_4
+  rotate: false
+  xy: 1557, 745
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: 0
+stampWallBig_1
+  rotate: false
+  xy: 959, 1056
+  size: 53, 54
+  orig: 53, 54
+  offset: 0, 0
+  index: 0
+roofMoss_1
+  rotate: false
+  xy: 833, 1067
+  size: 52, 48
+  orig: 52, 48
+  offset: 0, 0
+  index: 0
+floorWallJunk/judasSeat
+  rotate: false
+  xy: 833, 1118
+  size: 51, 72
+  orig: 51, 72
+  offset: 0, 0
+  index: 0
+foundryBellows
+  rotate: false
+  xy: 1015, 1099
+  size: 50, 85
+  orig: 50, 85
+  offset: 0, 0
+  index: 0
+chestChainRight
+  rotate: false
+  xy: 959, 1113
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: 0
+wallSecret
+  rotate: false
+  xy: 1703, 961
+  size: 49, 49
+  orig: 72, 72
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_0
+  rotate: false
+  xy: 1557, 803
+  size: 49, 33
+  orig: 49, 33
+  offset: 0, 0
+  index: 0
+corruptedDoor_2
+  rotate: false
+  xy: 959, 1171
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+corruptedDoor_1
+  rotate: false
+  xy: 887, 1172
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+corruptedDoorBroken
+  rotate: false
+  xy: 1264, 1031
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+normalDoorBroken
+  rotate: false
+  xy: 1188, 1056
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+normalDoor
+  rotate: false
+  xy: 1315, 1031
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+corruptedDoor_0
+  rotate: false
+  xy: 1366, 1031
+  size: 48, 72
+  orig: 48, 72
+  offset: 0, 0
+  index: 0
+groundFoliage_0
+  rotate: false
+  xy: 1417, 1057
+  size: 48, 57
+  orig: 48, 57
+  offset: 0, 0
+  index: 0
+chestTwRuneGlow
+  rotate: false
+  xy: 1468, 1057
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: 0
+chestMxRuneGlow
+  rotate: false
+  xy: 1519, 1092
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: 0
+chestBasicRuneGlow
+  rotate: false
+  xy: 1468, 1115
+  size: 48, 55
+  orig: 48, 55
+  offset: 0, 0
+  index: 0
+floorStamp_14
+  rotate: false
+  xy: 1570, 1111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorStamp_10
+  rotate: false
+  xy: 1519, 1150
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorStamp_12
+  rotate: false
+  xy: 1621, 1111
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorStamp_11
+  rotate: false
+  xy: 1672, 1121
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_0
+  rotate: false
+  xy: 1570, 1162
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorStamp_15
+  rotate: false
+  xy: 1621, 1162
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorStamp_13
+  rotate: false
+  xy: 1672, 1172
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_5
+  rotate: false
+  xy: 1723, 1214
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stampCeilingSmall_0
+  rotate: false
+  xy: 1774, 1214
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stampCeilingSmall_1
+  rotate: false
+  xy: 1825, 1248
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_4
+  rotate: false
+  xy: 1876, 1270
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_3
+  rotate: false
+  xy: 1927, 1315
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+chainAnchor
+  rotate: false
+  xy: 1978, 1315
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_2
+  rotate: false
+  xy: 1239, 1106
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+stoneStamp_1
+  rotate: false
+  xy: 1188, 1131
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+groundFoliage_1
+  rotate: false
+  xy: 1068, 1177
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: 0
+floorJunk/fillerp_0
+  rotate: false
+  xy: 1010, 1187
+  size: 48, 33
+  orig: 48, 33
+  offset: 0, 0
+  index: 0
+floorWallJunk/filler_19
+  rotate: false
+  xy: 1010, 1223
+  size: 47, 64
+  orig: 47, 64
+  offset: 0, 0
+  index: 0
+floorWallJunk/wallBed
+  rotate: false
+  xy: 1119, 1177
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: 0
+chestChainLeft
+  rotate: false
+  xy: 1822, 486
+  size: 47, 39
+  orig: 47, 39
+  offset: 0, 0
+  index: 0
+panFire_2
+  rotate: false
+  xy: 1063, 835
+  size: 47, 14
+  orig: 72, 21
+  offset: 1, 7
+  index: 0
+floorJunk/floorjunk_3
+  rotate: false
+  xy: 189, 789
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: 0
+stampWallMedium_1
+  rotate: false
+  xy: 189, 843
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: 0
+floorJunk/bonePile_0
+  rotate: false
+  xy: 1442, 671
+  size: 45, 25
+  orig: 45, 25
+  offset: 0, 0
+  index: 0
+stampWallMedium_0
+  rotate: false
+  xy: 1068, 1099
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: 0
+chestHeadSurprised
+  rotate: false
+  xy: 1190, 956
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: 0
+chestHeadTop
+  rotate: false
+  xy: 1442, 699
+  size: 43, 34
+  orig: 43, 34
+  offset: 0, 0
+  index: 0
+collectorDoorBroken
+  rotate: false
+  xy: 189, 892
+  size: 42, 96
+  orig: 42, 96
+  offset: 0, 0
+  index: 0
+timeDoorBroken
+  rotate: false
+  xy: 938, 1246
+  size: 42, 96
+  orig: 42, 96
+  offset: 0, 0
+  index: 0
+goldDoorBroken
+  rotate: false
+  xy: 1290, 1106
+  size: 42, 96
+  orig: 42, 96
+  offset: 0, 0
+  index: 0
+floorWallJunk/filler_4
+  rotate: false
+  xy: 1239, 1157
+  size: 42, 48
+  orig: 42, 48
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_26
+  rotate: false
+  xy: 1257, 749
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: 0
+stampWallMedium_5
+  rotate: false
+  xy: 1169, 1182
+  size: 40, 46
+  orig: 40, 46
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_17
+  rotate: false
+  xy: 1335, 1106
+  size: 39, 44
+  orig: 39, 44
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_15
+  rotate: false
+  xy: 1377, 1117
+  size: 39, 34
+  orig: 39, 34
+  offset: 0, 0
+  index: 0
+roofMoss_2
+  rotate: false
+  xy: 1335, 1153
+  size: 38, 48
+  orig: 38, 48
+  offset: 0, 0
+  index: 0
+wallJunk/wallJunk_2
+  rotate: false
+  xy: 1419, 1117
+  size: 38, 38
+  orig: 57, 117
+  offset: 7, 39
+  index: 0
+floorJunk/floorjunk_20
+  rotate: false
+  xy: 238, 577
+  size: 38, 26
+  orig: 38, 26
+  offset: 0, 0
+  index: 0
+chestHeadBot
+  rotate: false
+  xy: 1068, 1141
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: 0
+fireCauldron
+  rotate: false
+  xy: 1376, 1154
+  size: 34, 63
+  orig: 34, 72
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_16
+  rotate: false
+  xy: 1927, 1270
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: 0
+stampWallMedium_4
+  rotate: false
+  xy: 1723, 1121
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: 0
+stampWallMedium_3
+  rotate: false
+  xy: 1723, 1159
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_1
+  rotate: false
+  xy: 1137, 576
+  size: 32, 71
+  orig: 32, 71
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_13
+  rotate: false
+  xy: 957, 661
+  size: 32, 51
+  orig: 32, 51
+  offset: 0, 0
+  index: 0
+fakeBlackWall_0
+  rotate: false
+  xy: 903, 992
+  size: 32, 32
+  orig: 47, 47
+  offset: 7, 9
+  index: 0
+floorJunk/floorjunk_21
+  rotate: false
+  xy: 1994, 115
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: 0
+timeDoorLightOff
+  rotate: false
+  xy: 522, 342
+  size: 31, 58
+  orig: 46, 94
+  offset: 7, 9
+  index: 0
+timeDoorLightOn
+  rotate: false
+  xy: 522, 403
+  size: 31, 58
+  orig: 46, 94
+  offset: 7, 27
+  index: 0
+floorJunk/floorjunk_25
+  rotate: false
+  xy: 522, 464
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: 0
+fakeBlackWall_2
+  rotate: false
+  xy: 522, 499
+  size: 31, 32
+  orig: 47, 47
+  offset: 9, 10
+  index: 0
+meatBomb
+  rotate: false
+  xy: 522, 534
+  size: 31, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_23
+  rotate: false
+  xy: 606, 841
+  size: 31, 17
+  orig: 31, 17
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_41
+  rotate: false
+  xy: 1854, 946
+  size: 31, 10
+  orig: 31, 10
+  offset: 0, 0
+  index: 0
+meatBait
+  rotate: false
+  xy: 1247, 463
+  size: 30, 19
+  orig: 32, 27
+  offset: 0, 0
+  index: 0
+bannerRoomTop
+  rotate: false
+  xy: 1570, 1092
+  size: 30, 16
+  orig: 32, 16
+  offset: 1, 0
+  index: 0
+floorJunk/floorjunk_14
+  rotate: false
+  xy: 522, 564
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: 0
+goldDoorSide
+  rotate: false
+  xy: 1335, 1204
+  size: 28, 96
+  orig: 48, 96
+  offset: 10, 0
+  index: 0
+floorJunk/floorjunk_32
+  rotate: false
+  xy: 1284, 1205
+  size: 28, 71
+  orig: 28, 71
+  offset: 0, 0
+  index: 0
+homonculusFlushBg
+  rotate: false
+  xy: 1413, 1158
+  size: 28, 63
+  orig: 96, 72
+  offset: 35, 9
+  index: 0
+bannerRoomBot
+  rotate: false
+  xy: 1366, 1220
+  size: 28, 41
+  orig: 32, 48
+  offset: 2, 7
+  index: 0
+floorJunk/floorjunk_31
+  rotate: false
+  xy: 1212, 1208
+  size: 28, 35
+  orig: 28, 35
+  offset: 0, 0
+  index: 0
+bannerRoomTiled
+  rotate: false
+  xy: 1243, 1208
+  size: 28, 32
+  orig: 32, 32
+  offset: 2, 0
+  index: 0
+fakeBlackWall_1
+  rotate: false
+  xy: 1243, 1243
+  size: 28, 31
+  orig: 47, 47
+  offset: 9, 8
+  index: 0
+secretBlackWall_0
+  rotate: false
+  xy: 957, 715
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_9
+  rotate: false
+  xy: 1135, 650
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_8
+  rotate: false
+  xy: 1444, 1173
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_7
+  rotate: false
+  xy: 1475, 1173
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_6
+  rotate: false
+  xy: 1506, 1201
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_5
+  rotate: false
+  xy: 1537, 1201
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_3
+  rotate: false
+  xy: 1444, 1204
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_23
+  rotate: false
+  xy: 1475, 1204
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_4
+  rotate: false
+  xy: 1397, 1224
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_21
+  rotate: false
+  xy: 1568, 1213
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_14
+  rotate: false
+  xy: 1506, 1232
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_13
+  rotate: false
+  xy: 1537, 1232
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_12
+  rotate: false
+  xy: 1599, 1213
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_11
+  rotate: false
+  xy: 1630, 1213
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_10
+  rotate: false
+  xy: 1661, 1223
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_1
+  rotate: false
+  xy: 1692, 1223
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_15
+  rotate: false
+  xy: 1428, 1235
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_22
+  rotate: false
+  xy: 1397, 1255
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_16
+  rotate: false
+  xy: 1366, 1264
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_17
+  rotate: false
+  xy: 1459, 1235
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_18
+  rotate: false
+  xy: 1568, 1244
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_19
+  rotate: false
+  xy: 1599, 1244
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_2
+  rotate: false
+  xy: 1630, 1244
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+secretBlackWall_20
+  rotate: false
+  xy: 1661, 1254
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_19
+  rotate: false
+  xy: 1723, 1191
+  size: 28, 20
+  orig: 28, 20
+  offset: 0, 0
+  index: 0
+timeDoorSide
+  rotate: false
+  xy: 1692, 1254
+  size: 27, 96
+  orig: 48, 96
+  offset: 10, 0
+  index: 0
+floorJunk/floorjunk_4
+  rotate: false
+  xy: 1490, 1263
+  size: 27, 48
+  orig: 27, 48
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_36
+  rotate: false
+  xy: 1520, 1263
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_37
+  rotate: false
+  xy: 1428, 1266
+  size: 27, 42
+  orig: 27, 42
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_18
+  rotate: false
+  xy: 1397, 1286
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: 0
+candleB
+  rotate: false
+  xy: 640, 841
+  size: 27, 15
+  orig: 48, 24
+  offset: 9, 0
+  index: 0
+floorJunk/floorjunk_42
+  rotate: false
+  xy: 1366, 1295
+  size: 26, 43
+  orig: 26, 43
+  offset: 0, 0
+  index: 0
+brasero
+  rotate: false
+  xy: 740, 861
+  size: 25, 37
+  orig: 25, 39
+  offset: 0, 0
+  index: 0
+stampWallMedium_2
+  rotate: false
+  xy: 1458, 1266
+  size: 25, 35
+  orig: 25, 35
+  offset: 0, 0
+  index: 0
+floorWallJunk/filler_5
+  rotate: false
+  xy: 1458, 1304
+  size: 25, 33
+  orig: 25, 33
+  offset: 0, 0
+  index: 0
+wallSecretBroken
+  rotate: false
+  xy: 1115, 927
+  size: 25, 26
+  orig: 70, 70
+  offset: 23, 22
+  index: 0
+floorJunk/floorjunk_6
+  rotate: false
+  xy: 1628, 942
+  size: 25, 15
+  orig: 25, 15
+  offset: 0, 0
+  index: 0
+collectorDoorSide
+  rotate: false
+  xy: 983, 1246
+  size: 24, 96
+  orig: 48, 96
+  offset: 13, 0
+  index: 0
+hingeSmallDoor
+  rotate: false
+  xy: 1427, 1311
+  size: 24, 72
+  orig: 24, 72
+  offset: 0, 0
+  index: 0
+startDailyRun
+  rotate: false
+  xy: 1395, 1318
+  size: 24, 72
+  orig: 24, 72
+  offset: 0, 0
+  index: 0
+woodenPlatform_2
+  rotate: false
+  xy: 1722, 1265
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_1
+  rotate: false
+  xy: 1749, 1265
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_0
+  rotate: false
+  xy: 1776, 1265
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_left
+  rotate: false
+  xy: 1803, 1299
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+floorStamp_9
+  rotate: false
+  xy: 1830, 1299
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+floorStamp_6
+  rotate: false
+  xy: 1857, 1321
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+floorStamp_7
+  rotate: false
+  xy: 1884, 1321
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+floorStamp_8
+  rotate: false
+  xy: 1722, 1316
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_right
+  rotate: false
+  xy: 1749, 1316
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+chainUp
+  rotate: false
+  xy: 1776, 1316
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_4
+  rotate: false
+  xy: 1803, 1350
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+woodenPlatform_3
+  rotate: false
+  xy: 1830, 1350
+  size: 24, 48
+  orig: 24, 48
+  offset: 0, 0
+  index: 0
+chestBasicRune
+  rotate: false
+  xy: 965, 746
+  size: 24, 32
+  orig: 24, 32
+  offset: 0, 0
+  index: 0
+ladderPlatform
+  rotate: false
+  xy: 1060, 1228
+  size: 24, 27
+  orig: 24, 27
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_30
+  rotate: false
+  xy: 903, 1027
+  size: 24, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: 0
+magicLock
+  rotate: false
+  xy: 1087, 1228
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_right_1
+  rotate: false
+  xy: 1114, 1228
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+dailyRunDoorBackTriangle
+  rotate: false
+  xy: 1141, 1228
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_0
+  rotate: false
+  xy: 1168, 1231
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_7
+  rotate: false
+  xy: 1195, 1246
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_6
+  rotate: false
+  xy: 1087, 1255
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_1
+  rotate: false
+  xy: 1060, 1258
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_2
+  rotate: false
+  xy: 1114, 1255
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+dirt
+  rotate: false
+  xy: 1141, 1255
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_0
+  rotate: false
+  xy: 1168, 1258
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+vineTopOff
+  rotate: false
+  xy: 1195, 1273
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_4
+  rotate: false
+  xy: 1222, 1277
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+wallSecretBack
+  rotate: false
+  xy: 1249, 1277
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_3
+  rotate: false
+  xy: 1276, 1279
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+wallSecretRune
+  rotate: false
+  xy: 1303, 1279
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+doorOcclusion
+  rotate: false
+  xy: 1330, 1303
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_5
+  rotate: false
+  xy: 1087, 1282
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_1
+  rotate: false
+  xy: 1060, 1285
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_right_0
+  rotate: false
+  xy: 1010, 1290
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_8
+  rotate: false
+  xy: 1114, 1282
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ceiling_0
+  rotate: false
+  xy: 1141, 1282
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ceiling_1
+  rotate: false
+  xy: 1168, 1285
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ceiling_2
+  rotate: false
+  xy: 1195, 1300
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_0
+  rotate: false
+  xy: 1222, 1304
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_1
+  rotate: false
+  xy: 1249, 1304
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_2
+  rotate: false
+  xy: 1276, 1306
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+dailyRunDoorBack
+  rotate: false
+  xy: 1303, 1306
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_3
+  rotate: false
+  xy: 1330, 1330
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+backWall_9
+  rotate: false
+  xy: 1357, 1341
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_4
+  rotate: false
+  xy: 1087, 1309
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_3
+  rotate: false
+  xy: 1037, 1312
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_2
+  rotate: false
+  xy: 1010, 1317
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ceiling_3
+  rotate: false
+  xy: 1114, 1309
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_left_0
+  rotate: false
+  xy: 1141, 1309
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+ground_left_1
+  rotate: false
+  xy: 1168, 1312
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+floorStamp_5
+  rotate: false
+  xy: 1195, 1327
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: 0
+elevatorSide
+  rotate: false
+  xy: 1313, 903
+  size: 24, 23
+  orig: 24, 48
+  offset: 0, 5
+  index: 0
+goldOre
+  rotate: false
+  xy: 1264, 1005
+  size: 24, 23
+  orig: 24, 23
+  offset: 0, 0
+  index: 0
+leaf_2
+  rotate: false
+  xy: 1212, 1182
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: 0
+elevatorMid_0
+  rotate: false
+  xy: 1417, 1031
+  size: 24, 19
+  orig: 24, 48
+  offset: 0, 5
+  index: 0
+chestMxRune
+  rotate: false
+  xy: 1340, 903
+  size: 24, 18
+  orig: 25, 32
+  offset: 1, 14
+  index: 0
+chestTwRune
+  rotate: false
+  xy: 1089, 1026
+  size: 23, 23
+  orig: 25, 32
+  offset: 2, 9
+  index: 0
+lock
+  rotate: false
+  xy: 1089, 1052
+  size: 23, 23
+  orig: 24, 24
+  offset: 0, 1
+  index: 0
+floorJunk/floorjunk_11
+  rotate: false
+  xy: 1089, 1078
+  size: 23, 15
+  orig: 23, 15
+  offset: 0, 0
+  index: 0
+hingeTimeDoor
+  rotate: false
+  xy: 1222, 1331
+  size: 22, 96
+  orig: 22, 96
+  offset: 0, 0
+  index: 0
+hingeBigDoors
+  rotate: false
+  xy: 1247, 1331
+  size: 22, 96
+  orig: 22, 96
+  offset: 0, 0
+  index: 0
+leaf_5
+  rotate: false
+  xy: 1928, 1032
+  size: 22, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_34
+  rotate: false
+  xy: 1239, 1056
+  size: 22, 21
+  orig: 22, 21
+  offset: 0, 0
+  index: 0
+leaf_3
+  rotate: false
+  xy: 1928, 1058
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: 0
+stampWallSmall_1
+  rotate: false
+  xy: 1239, 1080
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_40
+  rotate: false
+  xy: 821, 451
+  size: 22, 9
+  orig: 22, 9
+  offset: 0, 0
+  index: 0
+leaf_4
+  rotate: false
+  xy: 1319, 559
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: 0
+leaf_1
+  rotate: false
+  xy: 1040, 858
+  size: 20, 22
+  orig: 20, 22
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_39
+  rotate: false
+  xy: 1064, 1312
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_38
+  rotate: false
+  xy: 1040, 883
+  size: 20, 21
+  orig: 20, 21
+  offset: 0, 0
+  index: 0
+stampWallSmall_0
+  rotate: false
+  xy: 1037, 1290
+  size: 20, 19
+  orig: 20, 19
+  offset: 0, 0
+  index: 0
+timeDoorSideOpen
+  rotate: false
+  xy: 214, 666
+  size: 19, 96
+  orig: 48, 96
+  offset: 17, 0
+  index: 0
+floorJunk/floorjunk_5
+  rotate: false
+  xy: 1113, 835
+  size: 19, 15
+  orig: 19, 15
+  offset: 0, 0
+  index: 0
+vineTopOn
+  rotate: false
+  xy: 2029, 1315
+  size: 17, 24
+  orig: 24, 24
+  offset: 4, 0
+  index: 0
+foundryJunk_4
+  rotate: false
+  xy: 1902, 1083
+  size: 17, 13
+  orig: 17, 13
+  offset: 0, 0
+  index: 0
+foundryJunk_1
+  rotate: false
+  xy: 1730, 650
+  size: 17, 11
+  orig: 17, 11
+  offset: 0, 0
+  index: 0
+dailyRunDoorHandBig
+  rotate: false
+  xy: 1238, 855
+  size: 16, 38
+  orig: 16, 38
+  offset: 0, 0
+  index: 0
+dailyRunDoorHandSmall
+  rotate: false
+  xy: 1315, 1205
+  size: 16, 35
+  orig: 16, 38
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_35
+  rotate: false
+  xy: 2029, 1342
+  size: 16, 35
+  orig: 16, 35
+  offset: 0, 0
+  index: 0
+stampWallSmall_2
+  rotate: false
+  xy: 1519, 1057
+  size: 16, 24
+  orig: 16, 24
+  offset: 0, 0
+  index: 0
+stampWallSmall_3
+  rotate: false
+  xy: 1291, 1005
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: 0
+leaf_0
+  rotate: false
+  xy: 1444, 1031
+  size: 16, 22
+  orig: 16, 22
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_29
+  rotate: false
+  xy: 1857, 1299
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_7
+  rotate: false
+  xy: 1377, 1106
+  size: 16, 8
+  orig: 16, 8
+  offset: 0, 0
+  index: 0
+foundryJunk_0
+  rotate: false
+  xy: 1755, 937
+  size: 16, 6
+  orig: 16, 6
+  offset: 0, 0
+  index: 0
+collectorDoorSideOpen
+  rotate: false
+  xy: 2031, 239
+  size: 15, 96
+  orig: 48, 96
+  offset: 18, 0
+  index: 0
+goldDoorSideOpen
+  rotate: false
+  xy: 2028, 1000
+  size: 15, 96
+  orig: 48, 96
+  offset: 18, 0
+  index: 0
+lantern
+  rotate: false
+  xy: 1550, 1263
+  size: 15, 38
+  orig: 37, 67
+  offset: 11, 24
+  index: 0
+floorJunk/floorjunk_24
+  rotate: false
+  xy: 1143, 927
+  size: 15, 24
+  orig: 15, 24
+  offset: 0, 0
+  index: 0
+candleA
+  rotate: false
+  xy: 2031, 1238
+  size: 15, 16
+  orig: 24, 24
+  offset: 5, 0
+  index: 0
+foundryRock_4
+  rotate: false
+  xy: 1444, 1158
+  size: 15, 12
+  orig: 15, 12
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_10
+  rotate: false
+  xy: 1627, 581
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: 0
+stampWallSmall_4
+  rotate: false
+  xy: 2032, 849
+  size: 14, 22
+  orig: 14, 22
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_9
+  rotate: false
+  xy: 787, 938
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_27
+  rotate: false
+  xy: 1686, 1060
+  size: 14, 6
+  orig: 14, 6
+  offset: 0, 0
+  index: 0
+ladder
+  rotate: false
+  xy: 887, 1118
+  size: 13, 24
+  orig: 24, 24
+  offset: 5, 0
+  index: 0
+chainDown
+  rotate: false
+  xy: 1490, 1235
+  size: 13, 24
+  orig: 13, 24
+  offset: 0, 0
+  index: 0
+chain_0
+  rotate: false
+  xy: 1911, 1321
+  size: 13, 24
+  orig: 13, 24
+  offset: 0, 0
+  index: 0
+leaf_6
+  rotate: false
+  xy: 1040, 907
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_12
+  rotate: false
+  xy: 1612, 1041
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: 0
+foundryRock_5
+  rotate: false
+  xy: 1922, 1083
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: 0
+foundryRock_6
+  rotate: false
+  xy: 887, 1145
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: 0
+foundryRock_0
+  rotate: false
+  xy: 1888, 946
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: 0
+foundryJunk_3
+  rotate: false
+  xy: 1428, 1224
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: 0
+prisonBossDoorSide
+  rotate: false
+  xy: 1911, 1348
+  size: 12, 96
+  orig: 12, 96
+  offset: 0, 0
+  index: 0
+keyDoorSide
+  rotate: false
+  xy: 2031, 338
+  size: 12, 96
+  orig: 12, 96
+  offset: 0, 0
+  index: 0
+magicDoorSide
+  rotate: false
+  xy: 1857, 1372
+  size: 12, 96
+  orig: 12, 96
+  offset: 0, 0
+  index: 0
+keyDoorSideDistillery
+  rotate: false
+  xy: 1872, 1372
+  size: 12, 96
+  orig: 12, 96
+  offset: 0, 0
+  index: 0
+torch
+  rotate: false
+  xy: 2034, 714
+  size: 12, 19
+  orig: 12, 19
+  offset: 0, 0
+  index: 0
+foundryRock_1
+  rotate: false
+  xy: 1538, 979
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: 0
+foundryRock_2
+  rotate: false
+  xy: 1831, 1071
+  size: 12, 9
+  orig: 12, 9
+  offset: 0, 0
+  index: 0
+foundryJunk_2
+  rotate: false
+  xy: 1442, 736
+  size: 12, 6
+  orig: 12, 6
+  offset: 0, 0
+  index: 0
+wallJunk/wallJunk_1
+  rotate: false
+  xy: 1613, 623
+  size: 11, 24
+  orig: 11, 24
+  offset: 0, 0
+  index: 0
+goldNugget4
+  rotate: false
+  xy: 740, 901
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: 0
+wallJunk/wallJunk_0
+  rotate: false
+  xy: 1506, 1173
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: 0
+teleportRocksB
+  rotate: false
+  xy: 1195, 1231
+  size: 10, 12
+  orig: 15, 15
+  offset: 3, 1
+  index: 0
+teleportRocksA
+  rotate: false
+  xy: 2036, 613
+  size: 10, 12
+  orig: 15, 15
+  offset: 2, 1
+  index: 0
+floorJunk/floorjunk_22
+  rotate: false
+  xy: 1933, 836
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: 0
+floorJunk/floorjunk_8
+  rotate: false
+  xy: 1774, 937
+  size: 10, 6
+  orig: 10, 6
+  offset: 0, 0
+  index: 0
+teleportRocksC
+  rotate: false
+  xy: 2036, 628
+  size: 9, 11
+  orig: 15, 15
+  offset: 2, 1
+  index: 0
+stampWallSmall_5
+  rotate: false
+  xy: 930, 1027
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: 0
+teleportRocksD
+  rotate: false
+  xy: 1384, 1341
+  size: 8, 11
+  orig: 13, 13
+  offset: 2, 1
+  index: 0
+floorJunk/floorjunk_28
+  rotate: false
+  xy: 729, 925
+  size: 8, 10
+  orig: 8, 10
+  offset: 0, 0
+  index: 0
+goldNugget1
+  rotate: false
+  xy: 769, 736
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: 0
+normalDoorSide
+  rotate: false
+  xy: 2038, 1148
+  size: 7, 72
+  orig: 7, 72
+  offset: 0, 0
+  index: 0
+corruptedDoorSide
+  rotate: false
+  xy: 1384, 1355
+  size: 7, 72
+  orig: 7, 72
+  offset: 0, 0
+  index: 0
+goldNugget3
+  rotate: false
+  xy: 661, 982
+  size: 7, 10
+  orig: 7, 10
+  offset: 0, 0
+  index: 0
+foundryRock_7
+  rotate: false
+  xy: 1656, 874
+  size: 7, 9
+  orig: 7, 9
+  offset: 0, 0
+  index: 0
+foundryRock_3
+  rotate: false
+  xy: 719, 1000
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: 0
+exitSideDoor
+  rotate: false
+  xy: 1274, 1208
+  size: 6, 63
+  orig: 72, 96
+  offset: 42, 0
+  index: 0
+exitSideDoorBg
+  rotate: false
+  xy: 1016, 957
+  size: 6, 63
+  orig: 72, 96
+  offset: 42, 0
+  index: 0
+goldNugget2
+  rotate: false
+  xy: 992, 548
+  size: 6, 9
+  orig: 6, 9
+  offset: 0, 0
+  index: 0
+teleportRocksG
+  rotate: false
+  xy: 1872, 486
+  size: 6, 6
+  orig: 13, 13
+  offset: 4, 5
+  index: 0
+goldNugget0
+  rotate: false
+  xy: 1107, 1141
+  size: 5, 6
+  orig: 5, 6
+  offset: 0, 0
+  index: 0
+teleportRocksH
+  rotate: false
+  xy: 1280, 463
+  size: 5, 5
+  orig: 13, 13
+  offset: 4, 5
+  index: 0
+teleportRocksE
+  rotate: false
+  xy: 814, 645
+  size: 4, 6
+  orig: 13, 13
+  offset: 4, 4
+  index: 0
+teleportRocksF
+  rotate: false
+  xy: 1463, 929
+  size: 4, 6
+  orig: 13, 13
+  offset: 4, 3
+  index: 0
+chestHeadEye
+  rotate: false
+  xy: 2044, 1
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: 0
+bg/sky_test
+  rotate: false
+  xy: 234, 892
+  size: 1, 256
+  orig: 1, 256
+  offset: 0, 0
+  index: 0
+bg/sky
+  rotate: false
+  xy: 1486, 1266
+  size: 1, 256
+  orig: 1, 256
+  offset: 0, 0
+  index: 0
