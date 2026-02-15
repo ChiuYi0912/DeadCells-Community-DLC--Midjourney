@@ -1,5 +1,4 @@
 using Hashlink.Virtuals;
-using BackGarden.Information.Disp;
 using dc.level;
 using dc.pr;
 using ModCore.Utilities;
@@ -8,8 +7,9 @@ using dc;
 using HaxeProxy.Runtime;
 using dc.libs.heaps.slib;
 using dc.h2d;
+using BackGarden.Disp;
 
-namespace BackGarden.LevelInformation.GardenDisp
+namespace BackGarden.GardenDisp
 {
     public static class InitializeGardenDisp
     {

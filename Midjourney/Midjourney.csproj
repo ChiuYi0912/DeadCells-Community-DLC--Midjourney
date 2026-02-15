@@ -7,8 +7,8 @@
 
 
     <ModType>mod</ModType>
-    <ModName>BackGarden</ModName>
-    <ModMain>BackGarden.BackGardenEntry</ModMain>
+    <ModName>Midjourney</ModName>
+    <ModMain>ModEntryLevelinit.Levelinit</ModMain>
     <AutoInstallMod Condition="'$(Configuration)' == 'Debug'">true</AutoInstallMod>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
@@ -27,10 +27,6 @@
 
   <ItemGroup>
     <PackageReference Include="DeadCellsCoreModding.MDK" Version="1.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

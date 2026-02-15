@@ -17,7 +17,7 @@ using Serilog;
 using Serilog.Core;
 
 
-namespace BackGarden.Information.Disp
+namespace BackGarden.Disp
 {
     public class GradenDisp : DynamicBiomeDisp
     {

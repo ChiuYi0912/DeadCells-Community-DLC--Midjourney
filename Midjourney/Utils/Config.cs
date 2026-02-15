@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace BackGarden.Utils.Config
+namespace Utils.Config
 {
     public class BaGaConfig
     {

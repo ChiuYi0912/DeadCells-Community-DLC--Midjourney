@@ -19,14 +19,22 @@ using HaxeProxy.Runtime;
 using ModCore.Utilities;
 using dc.tool.quadTree;
 using Hashlink.Virtuals;
-using Levelinit.RoomGroup;
-using BackGarden.Information.Disp;
-using BackGarden.LevelInformation.GardenDisp;
+using BackGarden;
+using ModCore.Events;
+using dc.ui.hud;
+using ModCore.Events.Interfaces.Game;
+using ModCore.Modules;
+using dc.tool.mod;
+using Utils.Lang;
+using Utils.RoomGroup;
+using Midjourney.Core.HookInitialize;
 
 
-namespace Levelinit;
+namespace ModEntryLevelinit;
 
-public class Levelinit : ModBase
+public class Levelinit : ModBase,
+    IOnHookInitialize,
+    IOnGameEndInit
 {
     public Levelinit(ModInfo info) : base(info)
     {
@@ -35,9 +43,55 @@ public class Levelinit : ModBase
 
     public override void Initialize()
     {
-        base.Initialize();
-        Room_group room_Group = new Room_group();
+
+        new Room_group();
+        new DLCLang(this);
         dc.pr.Hook_Level.init += Levelinit_Main;
+
+        EventSystem.BroadcastEvent<IOnHookInitialize, Levelinit>(this);
+    }
+
+
+    private readonly BackGardenLevel _gardenLevel = new();
+
+
+    void IOnHookInitialize.HookInitialize(Levelinit entry)
+    {
+        Hook__LevelStruct.get += Hook__LevelStruct_get;
+        Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
+    }
+
+    private Tile Hook_LevelLogos_getLevelLogo(Hook_LevelLogos.orig_getLevelLogo orig, LevelLogos self, dc.String levelLogoCoordinate)
+    {
+        var coordinate = self.textureCoordinateByLevelKind.exists.Invoke(levelLogoCoordinate)
+            ? levelLogoCoordinate
+            : "ClockTower".AsHaxeString();
+        return orig(self, coordinate);
+    }
+
+    void IOnGameEndInit.OnGameEndInit()
+    {
+        var resPath = Info.ModRoot!.GetFilePath("res.pak");
+        FsPak.Instance.FileSystem.loadPak(resPath.AsHaxeString());
+        var json = CDBManager.Class.instance.getAlteredCDB();
+        dc.Data.Class.loadJson(
+           json,
+           default);
+    }
+
+
+    private LevelStruct Hook__LevelStruct_get(
+        Hook__LevelStruct.orig_get orig,
+        User user,
+        virtual_baseLootLevel_biome_bonusTripleScrollAfterBC_cellBonus_dlc_doubleUps_eliteRoomChance_eliteWanderChance_flagsProps_group_icon_id_index_loreDescriptions_mapDepth_minGold_mobDensity_mobs_name_nextLevels_parallax_props_quarterUpsBC3_quarterUpsBC4_specificLoots_specificSubBiome_transitionTo_tripleUps_worldDepth_ l,
+        Rand rng)
+    {
+
+        var idStr = l.id.ToString();
+        if (idStr.Equals("BackGarden", StringComparison.OrdinalIgnoreCase))
+            return _gardenLevel.CreateLevelStruct(user, l, rng);
+
+        return orig(user, l, rng);
     }
 
 
@@ -304,8 +358,8 @@ public class Levelinit : ModBase
             ["Shipwreck_underground"] = () => new Shipwreck(self, self.map, id, "Shipwreck_underground".AsHaxeString()),
             ["Template"] = () => new Template(self, self.map),
             ["TumulusInt"] = () => new Tumulus(self, self.map, id),
-            ["BackGarden"] = () => InitializeGardenDisp.createGardenDisp(self, self.map)
-            
+            ["BackGarden"] = () => _gardenLevel.CreateLevelDisplay(self, self.map)
+
         };
 
         if (levelDispMappings.TryGetValue(id.ToString(), out var createLevelDispFunc))

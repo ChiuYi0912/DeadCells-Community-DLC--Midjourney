@@ -1,17 +1,18 @@
 using BackGarden;
 using ModCore.Events;
+using ModEntryLevelinit;
 
-namespace BackGarden.Utils.Lang
+namespace Utils.Lang
 {
-    public class BackGardenLang :
+    public class DLCLang :
         IEventReceiver
     {
-        public BackGardenLang(BackGardenEntry entry)
+        public DLCLang(Levelinit levelinit)
         {
 
             EventSystem.AddReceiver(this);
             ModCore.Modules.GetText.Instance.RegisterMod("BackGardenLang");
-            entry.Logger.Information("\x1b[34m Language Module Loading]\x1b[0m");
+            levelinit.Logger.Information("\x1b[34m Language Module Loading]\x1b[0m");
         }
     }
 }

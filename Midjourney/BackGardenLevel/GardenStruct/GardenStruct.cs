@@ -8,7 +8,7 @@ using Microsoft.VisualBasic;
 using ModCore.Utilities;
 using Serilog;
 
-namespace BackGarden.Information.Struct
+namespace BackGarden.Struct
 {
     public class GardenStruct : LevelStruct
     {

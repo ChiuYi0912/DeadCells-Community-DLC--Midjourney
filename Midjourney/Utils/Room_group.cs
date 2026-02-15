@@ -3,7 +3,7 @@ using dc._Data;
 using dc.hl.types;
 using ModCore.Utilities;
 
-namespace Levelinit.RoomGroup
+namespace Utils.RoomGroup
 {
     public class Room_group
     {

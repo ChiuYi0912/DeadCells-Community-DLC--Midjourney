@@ -5,12 +5,11 @@ using dc.pr;
 using Hashlink.Virtuals;
 using HaxeProxy.Runtime;
 using ModCore.Utilities;
-using BackGarden.Utils.Config;
-using BackGarden.Information.Struct;
-using BackGarden.LevelInformation.GardenDisp;
-using BackGarden.Information.Disp;
 using Midjourney.Core.Interfaces;
 using Serilog;
+using Utils.Config;
+using BackGarden.Struct;
+using BackGarden.GardenDisp;
 
 namespace BackGarden
 {

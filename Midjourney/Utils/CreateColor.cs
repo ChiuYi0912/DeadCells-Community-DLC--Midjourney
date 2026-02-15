@@ -1,4 +1,4 @@
-namespace Levelinit.Tools
+namespace Utils.ColorMapping
 {
     public static  class cerateColor
     {
