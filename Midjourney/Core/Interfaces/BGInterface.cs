@@ -1,8 +1,8 @@
 using ModCore.Events;
 using ModEntryLevelinit;
 
-namespace Midjourney.Core.HookInitialize
-{   
+namespace Midjourney.Core.Interfaces
+{
     [Event]
     public interface IOnHookInitialize
     {

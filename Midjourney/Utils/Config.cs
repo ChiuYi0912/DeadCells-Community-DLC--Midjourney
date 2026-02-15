@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 
-namespace Utils.Config
+namespace Midjourney.Utils
 {
-    public class BaGaConfig
+    public class BackGardenConfig
     {
         public string LevelId { get; set; } = "BackGarden";
 

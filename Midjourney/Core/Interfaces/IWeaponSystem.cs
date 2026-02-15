@@ -7,6 +7,6 @@ namespace Midjourney.Core.Interfaces
 {
     public interface IWeaponSystem
     {
-        string Weaponid{ get; }
+        string WeaponId { get; }
     }
 }

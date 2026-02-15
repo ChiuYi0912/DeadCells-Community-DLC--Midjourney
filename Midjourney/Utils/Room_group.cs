@@ -3,11 +3,11 @@ using dc._Data;
 using dc.hl.types;
 using ModCore.Utilities;
 
-namespace Utils.RoomGroup
+namespace Midjourney.Utils
 {
-    public class Room_group
+    public class RoomGroup
     {
-        public Room_group()
+        public RoomGroup()
         {
             InitializeRoomGroup();
         }

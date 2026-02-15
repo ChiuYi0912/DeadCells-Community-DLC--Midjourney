@@ -8,6 +8,6 @@ namespace Midjourney.Core.Interfaces
 
     public interface IMonsterSystem
     {
-        string Mobid { get; }
+        string MobId { get; }
     }
 }

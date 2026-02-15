@@ -25,9 +25,8 @@ using dc.ui.hud;
 using ModCore.Events.Interfaces.Game;
 using ModCore.Modules;
 using dc.tool.mod;
-using Utils.Lang;
-using Utils.RoomGroup;
-using Midjourney.Core.HookInitialize;
+using Midjourney.Core.Interfaces;
+using Midjourney.Utils;
 
 
 namespace ModEntryLevelinit;
@@ -44,7 +43,7 @@ public class Levelinit : ModBase,
     public override void Initialize()
     {
 
-        new Room_group();
+        new RoomGroup();
         new DLCLang(this);
         dc.pr.Hook_Level.init += Levelinit_Main;
 
@@ -98,7 +97,7 @@ public class Levelinit : ModBase,
 
     private void Levelinit_Main(Hook_Level.orig_init orig, Level self)
     {
-        initprocess(self);
+        InitProcess(self);
 
         self.permanentTW = new Tweenie(self.getDefaultFrameRate());
         self.levelSignals = new LevelSignals();
@@ -742,7 +741,7 @@ public class Levelinit : ModBase,
     }
 
 
-    public void initprocess(dc.pr.Level level)
+    public void InitProcess(dc.pr.Level level)
     {
         level.name = "process".AsHaxeString();
 

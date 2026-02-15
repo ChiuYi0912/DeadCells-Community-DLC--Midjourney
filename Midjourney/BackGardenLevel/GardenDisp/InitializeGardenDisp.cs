@@ -13,7 +13,7 @@ namespace BackGarden.GardenDisp
 {
     public static class InitializeGardenDisp
     {
-        public static dc.level.LevelDisp createGardenDisp(dc.pr.Level level, dc.level.LevelMap map)
+        public static dc.level.LevelDisp CreateGardenDisp(dc.pr.Level level, dc.level.LevelMap map ,string biome1)
         {
             virtual_blendAmbient_blendAmbientFog_blendCamDust_blendCamFog_blendGroundSmoke_blendLights_blendShadows_
             data = new virtual_blendAmbient_blendAmbientFog_blendCamDust_blendCamFog_blendGroundSmoke_blendLights_blendShadows_();
@@ -26,10 +26,10 @@ namespace BackGarden.GardenDisp
             data.blendShadows = false;
 
 
-            ArrayObj parallax = ((HaxeDynObj)Data.Class.level.byId.get("BackGarden".AsHaxeString())).ToVirtual<virtual_baseLootLevel_biome_bonusTripleScrollAfterBC_cellBonus_dlc_doubleUps_eliteRoomChance_eliteWanderChance_flagsProps_group_icon_id_index_loreDescriptions_mapDepth_minGold_mobDensity_mobs_name_nextLevels_parallax_props_quarterUpsBC3_quarterUpsBC4_specificLoots_specificSubBiome_transitionTo_tripleUps_worldDepth_>().parallax;
+            ArrayObj parallax = ((HaxeDynObj)Data.Class.level.byId.get(biome1.AsHaxeString())).ToVirtual<virtual_baseLootLevel_biome_bonusTripleScrollAfterBC_cellBonus_dlc_doubleUps_eliteRoomChance_eliteWanderChance_flagsProps_group_icon_id_index_loreDescriptions_mapDepth_minGold_mobDensity_mobs_name_nextLevels_parallax_props_quarterUpsBC3_quarterUpsBC4_specificLoots_specificSubBiome_transitionTo_tripleUps_worldDepth_>().parallax;
 
             ArrayObj array = (ArrayObj)ArrayUtils.CreateDyn().array;
-            GradenDisp disp = new GradenDisp(level, map, "BackGarden".AsHaxeString(), "Cliff_outside".AsHaxeString(), data, parallax);
+            BackGarden.Disp.GardenDisp disp = new BackGarden.Disp.GardenDisp(level, map, biome1.AsHaxeString(), "Cliff_outside".AsHaxeString(), data, parallax);
 
             JunkMode junkMode = new JunkMode.OnlyInside();
             disp.junkMode = junkMode;

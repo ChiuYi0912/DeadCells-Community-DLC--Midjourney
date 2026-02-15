@@ -19,11 +19,11 @@ using Serilog.Core;
 
 namespace BackGarden.Disp
 {
-    public class GradenDisp : DynamicBiomeDisp
+    public class GardenDisp : DynamicBiomeDisp
     {
 
 
-        public GradenDisp(Level level, LevelMap map, dc.String mainBiomeKind, dc.String otherBiomeKind, virtual_blendAmbient_blendAmbientFog_blendCamDust_blendCamFog_blendGroundSmoke_blendLights_blendShadows_ blendConfiguration, ArrayObj parallaxInfo) : base(level, map, mainBiomeKind, otherBiomeKind, blendConfiguration, parallaxInfo)
+        public GardenDisp(Level level, LevelMap map, dc.String mainBiomeKind, dc.String otherBiomeKind, virtual_blendAmbient_blendAmbientFog_blendCamDust_blendCamFog_blendGroundSmoke_blendLights_blendShadows_ blendConfiguration, ArrayObj parallaxInfo) : base(level, map, mainBiomeKind, otherBiomeKind, blendConfiguration, parallaxInfo)
         {
         }
 
@@ -128,12 +128,12 @@ namespace BackGarden.Disp
             bool shouldAddAlcoves = (z.gFlags & 64) == 0 && z.hasGround && (z.gFlags & 8) != 0 && (z.flags & 16) == 0 && z.xmax - z.xmin >= 7 && z.ymax - z.ymin >= 5;
             if (shouldAddAlcoves)
             {
-                this.addAlcoves(z);
+                this.AddAlcoves(z);
             }
 
         }
 
-        public void addAlcoves(DecoZone size)
+        public void AddAlcoves(DecoZone size)
         {
             double zoneWidth = size.xmax - size.xmin;
             int alcoveCount = (int)(zoneWidth / 7.0);
@@ -206,11 +206,11 @@ namespace BackGarden.Disp
         public override void decorateRoom(Room r)
         {
             base.decorateRoom(r);
-            //addmushrooms(r);
+            //AddMushrooms(r);
         }
 
 
-        public void addmushrooms(Room r)
+        public void AddMushrooms(Room r)
         {
             SpriteLib spriteLib = Assets.Class.tryGetAtlas(new DynamicLoadAtlas.LevelCandle());
             ArrayObj alcoveMarkers = r.getMarkersOfType("CustomDeco".AsHaxeString());
