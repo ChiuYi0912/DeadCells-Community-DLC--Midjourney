@@ -1,4 +1,5 @@
-using BackGarden;
+using Midjourney.Core.Extensions;
+using Midjourney.Core.Utilities;
 using Midjourney.EntryPoint;
 using ModCore.Events;
 
@@ -9,9 +10,10 @@ namespace Midjourney.Utils
     {
         public DLCLang(ModInitializer levelinit)
         {
+            levelinit.Logger.LogInformation("Language Module initialisation commences", "DLCLang");
             EventSystem.AddReceiver(this);
             ModCore.Modules.GetText.Instance.RegisterMod("BackGardenLang");
-            levelinit.Logger.Information("\x1b[34m Language Module Loading]\x1b[0m");
+
         }
     }
 }

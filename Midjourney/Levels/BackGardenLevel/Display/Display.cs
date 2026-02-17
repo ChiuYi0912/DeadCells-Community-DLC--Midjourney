@@ -17,7 +17,7 @@ using Serilog;
 using Serilog.Core;
 
 
-namespace BackGarden.Disp
+namespace Midjourney.Levels.Display
 {
     public class GardenDisp : DynamicBiomeDisp
     {

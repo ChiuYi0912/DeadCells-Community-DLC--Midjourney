@@ -7,11 +7,11 @@ using HaxeProxy.Runtime;
 using ModCore.Utilities;
 using Midjourney.Core.Interfaces;
 using Serilog;
-using BackGarden.Struct;
-using BackGarden.GardenDisp;
 using Midjourney.Utils;
+using Midjourney.Levels.Struct;
+using Midjourney.Levels.Disp;
 
-namespace BackGarden
+namespace Midjourney.Levels.BackGarden
 {
     public class BackGardenLevel : ILevel
     {

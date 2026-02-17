@@ -5,10 +5,11 @@ using dc.libs;
 using Hashlink.Virtuals;
 using HaxeProxy.Runtime;
 using Microsoft.VisualBasic;
+using Midjourney.Core.Extensions;
 using ModCore.Utilities;
 using Serilog;
 
-namespace BackGarden.Struct
+namespace Midjourney.Levels.Struct
 {
     public class GardenStruct : LevelStruct
     {
@@ -21,9 +22,8 @@ namespace BackGarden.Struct
         {
             #region 入口
             RoomNode entranceNode = base.createNode(null, "BasicEntrance_R".AsHaxeString(), null, "start".AsHaxeString());
-            entranceNode.addFlag(new RoomFlag.NoExitSizeCheck());
             entranceNode.addNpc(new NpcId.PlagueDoctor());
-            entranceNode.addFlag(new RoomFlag.Outside());
+            entranceNode.AddFlags(new RoomFlag.NoExitSizeCheck(), new RoomFlag.Outside());
 
 
             virtual_specificBiome_ virtual_add = new virtual_specificBiome_();
@@ -34,7 +34,7 @@ namespace BackGarden.Struct
 
             RoomNode roomNode = base.createNode(null, "LabArt".AsHaxeString(), null, "lab".AsHaxeString());
             roomNode.set_parent(entranceNode);
-            roomNode.addFlag(new RoomFlag.Outside());
+            roomNode.AddFlags(new RoomFlag.Outside());
 
             RoomNode roomNode3 = base.createExit("LabArt".AsHaxeString(), null, null, "exit".AsHaxeString()).set_parent(roomNode);
             Log.Debug($"{base.all.array}");

@@ -19,14 +19,13 @@ using HaxeProxy.Runtime;
 using ModCore.Utilities;
 using dc.tool.quadTree;
 using Hashlink.Virtuals;
-using BackGarden;
 using ModCore.Events;
 using dc.ui.hud;
-using ModCore.Events.Interfaces.Game;
-using ModCore.Modules;
-using dc.tool.mod;
 using Midjourney.Core.Interfaces;
 using Midjourney.Utils;
+using Midjourney.Core.Utilities;
+using Midjourney.Core.Extensions;
+using Midjourney.Levels.BackGarden;
 
 
 namespace Midjourney.EntryPoint;
@@ -38,16 +37,35 @@ public class LevelManager :
 {
     public LevelManager(ModInitializer entry)
     {
+        entry.Logger.LogLevelManager("Level Manager initialisation commences", LoggingHelper.LogLevel.Information);
         EventSystem.AddReceiver(this);
-        entry.Logger.Information("\x1b[34m Level Manager Loading]\x1b[0m");
     }
 
     void IOnHookInitialize.HookInitialize(ModInitializer entry)
     {
-        dc.pr.Hook_Level.init += ModInitializer_Main;
-        Hook__LevelStruct.get += Hook__LevelStruct_get;
-        Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
+        using (entry.Logger.LogMethodScope(nameof(IOnHookInitialize.HookInitialize)))
+        {
+            try
+            {
+                entry.Logger.LogHooks("Registered Level Hook", LoggingHelper.LogLevel.Debug);
+                dc.pr.Hook_Level.init += ModInitializer_Main;
+
+                entry.Logger.LogHooks("Registered Level Structure Hook", LoggingHelper.LogLevel.Debug);
+                Hook__LevelStruct.get += Hook__LevelStruct_get;
+
+                entry.Logger.LogHooks("Registered Level Logo Hook", LoggingHelper.LogLevel.Debug);
+                Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
+
+                entry.Logger.LogHooks("All hooks have been successfully registered.", LoggingHelper.LogLevel.Success);
+            }
+            catch (Exception ex)
+            {
+                entry.Logger.LogError("An error occurred while registering the hook.", ex, LoggingHelper.Modules.Hooks);
+                throw;
+            }
+        }
     }
+
 
 
     private readonly BackGardenLevel _gardenLevel = new();
@@ -70,7 +88,7 @@ public class LevelManager :
     {
 
         var idStr = l.id.ToString();
-        if (idStr.Equals("BackGarden", StringComparison.OrdinalIgnoreCase))
+        if (idStr.EqualsIgnoreCase(GameConstants.Levels.BackGarden))
             return _gardenLevel.CreateLevelStruct(user, l, rng);
 
         return orig(user, l, rng);
@@ -743,11 +761,8 @@ public class LevelManager :
         level.cd = new dc.libs.Cooldown(frameRate);
         level.tw = new Tweenie(frameRate);
     }
-
-
 }
 
 
 
 
-  

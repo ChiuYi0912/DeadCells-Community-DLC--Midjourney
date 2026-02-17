@@ -1,25 +1,22 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Midjourney.Core.Interfaces;
+using Midjourney.Core.Utilities;
 using ModCore.Events;
 
 namespace Midjourney.EntryPoint
 {
-    public class WeaponManager:
+    public class WeaponManager :
     IEventReceiver,
     IOnHookInitialize
     {
         public WeaponManager(ModInitializer entry)
         {
+            entry.Logger.LogInformation("Weapon Manager initialisation commences", "WeaponManager");
             EventSystem.AddReceiver(this);
-            entry.Logger.Information("\x1b[34m Weapon Manager Loading]\x1b[0m");
         }
 
         void IOnHookInitialize.HookInitialize(ModInitializer entry)
         {
-            
+
         }
     }
 }
