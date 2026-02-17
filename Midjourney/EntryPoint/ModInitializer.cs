@@ -9,13 +9,19 @@ using Midjourney.Core.Utilities;
 using Midjourney.Core.Extensions;
 using Midjourney.Utils;
 using Midjourney.EntryPoint;
+using dc;
+using dc.hl.types;
+using ModCore.Events.Interfaces.Game.Hero;
+using dc.en;
 
 
 namespace Midjourney.EntryPoint;
 
 public class ModInitializer(ModInfo info) : ModBase(info),
     IOnHookInitialize,
-    IOnGameEndInit
+    IOnGameEndInit,
+    IOnAfterLoadingCDB,
+    IOnHeroUpdate
 {
     public static ModCore.Storage.Config<Core.Configuration.CoreCfig> Config = new("MidjourneyCoreConfig");
 
@@ -39,6 +45,11 @@ public class ModInitializer(ModInfo info) : ModBase(info),
     }
 
     void IOnHookInitialize.HookInitialize(ModInitializer entry)
+    {
+
+    }
+
+    void IOnAfterLoadingCDB.OnAfterLoadingCDB(_Data_ cdb)
     {
 
     }
@@ -82,4 +93,14 @@ public class ModInitializer(ModInfo info) : ModBase(info),
         }
     }
 
+
+    void IOnHeroUpdate.OnHeroUpdate(double dt)
+    {
+
+        List<Entity> entities = Game.Instance.HeroInstance!._level.RemoveAllMobsSafe();
+        for (int i = 0; i < entities.Count; i++)
+        {
+            Logger.LogInformation($"Removing entity: {entities[i]}");
+        }
+    }
 }

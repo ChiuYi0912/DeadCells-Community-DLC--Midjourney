@@ -12,6 +12,9 @@ using dc.h2d;
 using dc.h2d.filter;
 using dc.hl.types;
 using dc.light;
+using dc.en;
+using Hashlink.Proxy.DynamicAccess;
+using dc.en.mob;
 
 namespace Midjourney.Core.Extensions
 {
@@ -102,12 +105,59 @@ namespace Midjourney.Core.Extensions
         {
             ValidationHelper.NotNull(level, nameof(level));
             ValidationHelper.NotNull(entity, nameof(entity));
+            entity.destroy();
+            level.unregisterEntity(entity);
+        }
 
-            if (!level.destroyed)
+
+        public static List<Entity> RemoveAllMobsSafe(this dc.pr.Level level)
+        {
+            ValidationHelper.NotNull(level, nameof(level));
+
+            var mobsToRemove = new List<Entity>();
+            foreach (Entity entity in level.entities.AsEnumerable())
             {
-                level.entities.remove(entity);
+                if (entity is dc.en.Mob)
+                {
+                    if (entity is Boss)
+                        continue;
+                    mobsToRemove.Add(entity);
+                }
+            }
+            foreach (dc.en.Mob mob in mobsToRemove)
+            {
+                try
+                {
+                    mob.destroy();
+                    level.unregisterEntity(mob);
+                }
+                catch { }
+            }
+            return mobsToRemove;
+        }
+
+
+        public static void RegisterEntitySafe(this dc.pr.Level level, Entity entity)
+        {
+            ValidationHelper.NotNull(level, nameof(level));
+            ValidationHelper.NotNull(entity, nameof(entity));
+
+            if (level.destroyed) return;
+
+            try
+            {
+                level.registerEntity(entity);
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Failed to register entity: {ex.Message}");
+                throw;
             }
         }
+
+
+
+
 
 
         public static IEnumerable<Entity> GetEntitiesByClass(this dc.pr.Level level, int classId)

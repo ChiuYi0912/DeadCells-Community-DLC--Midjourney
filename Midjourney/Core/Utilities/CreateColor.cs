@@ -1,6 +1,6 @@
 using System;
 
-namespace Midjourney.Utils
+namespace Midjourney.Core.Utilities
 {
     public static class CreateColor
     {

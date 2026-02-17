@@ -7,6 +7,6 @@ namespace Midjourney.Core.Configuration
 {
     public  class CoreCfig
     {
-        public  bool debugMode { get; set; }= false;
+        public bool debugMode { get; set; }= false;
     }
 }
