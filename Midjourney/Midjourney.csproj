@@ -13,7 +13,6 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
-  
   <PropertyGroup>
     <GenerateDiffCDB>false</GenerateDiffCDB>
     <GameVersion>35</GameVersion>
@@ -24,9 +23,13 @@
     <PackAssets Include="BackGardenAsstes/**/*" RootInPak="BackGardenAsstes" />
   </ItemGroup>
 
-
   <ItemGroup>
     <PackageReference Include="DeadCellsCoreModding.MDK" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DebugConsole" />
+    <ModDependency Include="DebugConsole" />
   </ItemGroup>
 
 </Project>

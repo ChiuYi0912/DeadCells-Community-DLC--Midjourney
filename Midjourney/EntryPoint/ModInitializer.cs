@@ -96,11 +96,6 @@ public class ModInitializer(ModInfo info) : ModBase(info),
 
     void IOnHeroUpdate.OnHeroUpdate(double dt)
     {
-
-        List<Entity> entities = Game.Instance.HeroInstance!._level.RemoveAllMobsSafe();
-        for (int i = 0; i < entities.Count; i++)
-        {
-            Logger.LogInformation($"Removing entity: {entities[i]}");
-        }
+        
     }
 }

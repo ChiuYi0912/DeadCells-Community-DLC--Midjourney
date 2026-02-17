@@ -9,7 +9,7 @@ namespace Midjourney.Core.Utilities
         {
             if (value is null)
             {
-                throw new ArgumentNullException(paramName, $"参数 '{paramName}' 不能为null");
+                throw new ArgumentNullException(paramName, $"参数 '{paramName}' 为null");
             }
             return value;
         }
@@ -19,7 +19,7 @@ namespace Midjourney.Core.Utilities
         {
             if (string.IsNullOrEmpty(value))
             {
-                throw new ArgumentException($"参数 '{paramName}' 不能为null或空字符串", paramName);
+                throw new ArgumentException($"参数 '{paramName}' 为null或空字符串", paramName);
             }
             return value;
         }
@@ -29,7 +29,7 @@ namespace Midjourney.Core.Utilities
         {
             if (string.IsNullOrWhiteSpace(value))
             {
-                throw new ArgumentException($"参数 '{paramName}' 不能为null或空白字符串", paramName);
+                throw new ArgumentException($"参数 '{paramName}' 为null或空白字符串", paramName);
             }
             return value;
         }
