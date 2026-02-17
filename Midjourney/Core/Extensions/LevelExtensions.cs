@@ -137,6 +137,31 @@ namespace Midjourney.Core.Extensions
         }
 
 
+        public static void ShowTheTransmission(this dc.pr.Level level)
+        {
+            ValidationHelper.NotNull(level, nameof(level));
+            var mobsToRemove = new List<Entity>();
+            foreach (Entity entity in level.entities.AsEnumerable())
+            {
+                if (entity is dc.en.inter.Teleport)
+                {
+                    mobsToRemove.Add(entity);
+                }
+            }
+            foreach (dc.en.inter.Teleport teleport in mobsToRemove)
+            {
+                try
+                {
+                    if (!teleport.opened)
+                        teleport.open();
+                }
+                catch { }
+            }
+        }
+
+
+
+
         public static void RegisterEntitySafe(this dc.pr.Level level, Entity entity)
         {
             ValidationHelper.NotNull(level, nameof(level));

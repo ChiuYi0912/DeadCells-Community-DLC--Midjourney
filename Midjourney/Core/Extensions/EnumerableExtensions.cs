@@ -5,6 +5,7 @@ using dc.haxe.ds;
 using dc.hl.types;
 using HaxeProxy.Runtime;
 using Midjourney.Core.Utilities;
+using ModCore.Utilities;
 
 namespace Midjourney.Core.Extensions
 {
@@ -27,7 +28,7 @@ namespace Midjourney.Core.Extensions
             for (int i = 0; i < arrayObj.length; i++)
             {
                 if (arrayObj.array[i] != null)
-                yield return arrayObj.array[i]!;
+                    yield return arrayObj.array[i]!;
             }
         }
 
@@ -49,7 +50,40 @@ namespace Midjourney.Core.Extensions
             return list;
         }
 
- 
+
+        public static ArrayObj ToArrayObj<T>(this IEnumerable<T> source)
+        {
+            ValidationHelper.NotNull(source, nameof(source));
+
+            var arrayObj = (ArrayObj)ArrayUtils.CreateDyn().array;
+
+            if (source is ICollection<T> collection)
+            {
+                if (source is List<T> list)
+                {
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        arrayObj.push(list[i]);
+                    }
+                    return arrayObj;
+                }
+
+                foreach (var item in collection)
+                {
+                    arrayObj.push(item);
+                }
+                return arrayObj;
+            }
+
+            foreach (var item in source)
+            {
+                arrayObj.push(item);
+            }
+            return arrayObj;
+        }
+
+
+
         public static dynamic? GetSafe(this ArrayObj arrayObj, int index)
         {
             if (arrayObj == null || index < 0 || index >= arrayObj.length)

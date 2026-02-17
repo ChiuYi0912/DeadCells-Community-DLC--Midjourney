@@ -1,4 +1,8 @@
 
+using System.Diagnostics;
+using Serilog;
+using Serilog.Core;
+
 namespace Midjourney.Core.Utilities
 {
 
@@ -7,9 +11,9 @@ namespace Midjourney.Core.Utilities
 
         public static T NotNull<T>(T value, string paramName) where T : class
         {
-            if (value is null)
+            if (value == null)
             {
-                throw new ArgumentNullException(paramName, $"参数 '{paramName}' 为null");
+                throw new ArgumentNullException($"参数 '{paramName}' 为null");
             }
             return value;
         }

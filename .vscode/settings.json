@@ -26,6 +26,7 @@
         "**/*.dylib": true,
         "**/build/": true,
         "**/bin/": true,
-        "**/obj/": true
+        "**/obj/": true,
+        "**/.vs/": true
     },
 }
