@@ -8,7 +8,7 @@
 
     <ModType>mod</ModType>
     <ModName>Midjourney</ModName>
-    <ModMain>ModEntryLevelinit.Levelinit</ModMain>
+    <ModMain>Midjourney.EntryPoint.ModInitializer</ModMain>
     <AutoInstallMod Condition="'$(Configuration)' == 'Debug'">true</AutoInstallMod>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>

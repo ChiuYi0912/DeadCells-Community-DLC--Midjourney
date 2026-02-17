@@ -29,36 +29,28 @@ using Midjourney.Core.Interfaces;
 using Midjourney.Utils;
 
 
-namespace ModEntryLevelinit;
+namespace Midjourney.EntryPoint;
 
-public class Levelinit : ModBase,
-    IOnHookInitialize,
-    IOnGameEndInit
+public class LevelManager :
+        IOnHookInitialize,
+        IEventReceiver
+
 {
-    public Levelinit(ModInfo info) : base(info)
+    public LevelManager(ModInitializer entry)
     {
+        EventSystem.AddReceiver(this);
+        entry.Logger.Information("\x1b[34m Level Manager Loading]\x1b[0m");
     }
 
-
-    public override void Initialize()
+    void IOnHookInitialize.HookInitialize(ModInitializer entry)
     {
-
-        new RoomGroup();
-        new DLCLang(this);
-        dc.pr.Hook_Level.init += Levelinit_Main;
-
-        EventSystem.BroadcastEvent<IOnHookInitialize, Levelinit>(this);
+        dc.pr.Hook_Level.init += ModInitializer_Main;
+        Hook__LevelStruct.get += Hook__LevelStruct_get;
+        Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
     }
 
 
     private readonly BackGardenLevel _gardenLevel = new();
-
-
-    void IOnHookInitialize.HookInitialize(Levelinit entry)
-    {
-        Hook__LevelStruct.get += Hook__LevelStruct_get;
-        Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
-    }
 
     private Tile Hook_LevelLogos_getLevelLogo(Hook_LevelLogos.orig_getLevelLogo orig, LevelLogos self, dc.String levelLogoCoordinate)
     {
@@ -68,15 +60,6 @@ public class Levelinit : ModBase,
         return orig(self, coordinate);
     }
 
-    void IOnGameEndInit.OnGameEndInit()
-    {
-        var resPath = Info.ModRoot!.GetFilePath("res.pak");
-        FsPak.Instance.FileSystem.loadPak(resPath.AsHaxeString());
-        var json = CDBManager.Class.instance.getAlteredCDB();
-        dc.Data.Class.loadJson(
-           json,
-           default);
-    }
 
 
     private LevelStruct Hook__LevelStruct_get(
@@ -95,7 +78,7 @@ public class Levelinit : ModBase,
 
 
 
-    private void Levelinit_Main(Hook_Level.orig_init orig, Level self)
+    private void ModInitializer_Main(Hook_Level.orig_init orig, Level self)
     {
         InitProcess(self);
 
@@ -763,3 +746,8 @@ public class Levelinit : ModBase,
 
 
 }
+
+
+
+
+  

@@ -37,7 +37,7 @@ namespace BackGarden
 
         public dc.level.LevelDisp CreateLevelDisplay(dc.pr.Level level, dc.level.LevelMap map)
         {
-            return InitializeGardenDisp.CreateGardenDisp(level, map, Biome);
+            return InitializeGardenDisp.CreateGardenDisp(level, map, this.Biome);
         }
 
 

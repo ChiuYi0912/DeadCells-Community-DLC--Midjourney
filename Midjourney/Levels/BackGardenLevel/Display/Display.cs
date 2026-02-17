@@ -206,7 +206,7 @@ namespace BackGarden.Disp
         public override void decorateRoom(Room r)
         {
             base.decorateRoom(r);
-            //AddMushrooms(r);
+            AddMushrooms(r);
         }
 
 
@@ -222,7 +222,7 @@ namespace BackGarden.Disp
                 Marker marker = arraymarker;
                 if (marker == null) continue;
 
-                if (marker.customId.ToString() == "Alcove")
+                if (marker.customId.ToString() == "mushrooms")
                 {
                     int tileX = r.x + marker.cx;
                     int tileY = r.y + marker.cy;
