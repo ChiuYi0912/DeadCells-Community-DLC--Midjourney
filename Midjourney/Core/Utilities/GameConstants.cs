@@ -176,21 +176,6 @@ namespace Midjourney.Core.Utilities
         }
 
 
-        public static class RenderDepths
-        {
-            public const int ROOT_DP_MAIN = 0;           // Const.Class.ROOT_DP_MAIN
-            public const int DP_ROOM_BACK_FX = 1;        // Const.Class.DP_ROOM_BACK_FX
-            public const int DP_ROOM_MAIN_FX = 2;        // Const.Class.DP_ROOM_MAIN_FX
-            public const int DP_FOREGROUND_FX = 3;       // Const.Class.DP_FOREGROUND_FX
-            public const int DP_CTX_UI = 4;              // Const.Class.DP_CTX_UI
-            public const int DP_ROOM_BACK = 5;           // Const.Class.DP_ROOM_BACK
-            public const int DP_ROOM_FRONT_HERO = 6;     // Const.Class.DP_ROOM_FRONT_HERO
-            public const int DP_ROOM_FRONT = 7;          // Const.Class.DP_ROOM_FRONT
-            public const int DP_ROOM_BACK_DECO = 8;      // Const.Class.DP_ROOM_BACK_DECO
-            public const int DP_ROOM_BACK_PROPS = 9;     // Const.Class.DP_ROOM_BACK_PROPS
-            public const int DP_ROOM_MAIN = 10;          // Const.Class.DP_ROOM_MAIN
-        }
-
 
         public static class Colors
         {

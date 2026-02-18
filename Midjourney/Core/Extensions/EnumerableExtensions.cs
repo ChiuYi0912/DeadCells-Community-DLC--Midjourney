@@ -1,11 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using dc.haxe.ds;
 using dc.hl.types;
 using HaxeProxy.Runtime;
 using Midjourney.Core.Utilities;
 using ModCore.Utilities;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
+using System.Threading;
 
 namespace Midjourney.Core.Extensions
 {
@@ -31,6 +31,20 @@ namespace Midjourney.Core.Extensions
                     yield return arrayObj.array[i]!;
             }
         }
+
+        public static async IAsyncEnumerable<dynamic> AsEnumerableAsync(this ArrayObj arrayObj, [EnumeratorCancellation] CancellationToken cancellationToken = default)
+        {
+            ValidationHelper.NotNull(arrayObj, nameof(arrayObj));
+            await Task.Yield();
+            for (int i = 0; i < arrayObj.length; i++)
+            {
+                cancellationToken.ThrowIfCancellationRequested();
+                if (arrayObj.array[i] != null)
+                    yield return arrayObj.array[i]!;
+            }
+        }
+
+
 
 
         public static List<T> ToList<T>(this ArrayObj arrayObj, Func<dynamic, T> converter)
@@ -88,6 +102,7 @@ namespace Midjourney.Core.Extensions
         {
             if (arrayObj == null || index < 0 || index >= arrayObj.length)
             {
+                ValidationHelper.NotNull(arrayObj!, $"{nameof(arrayObj)}");
                 return null;
             }
             return arrayObj.array[index];
@@ -138,5 +153,6 @@ namespace Midjourney.Core.Extensions
             }
             return intMap;
         }
+
     }
 }

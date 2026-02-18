@@ -137,18 +137,18 @@ namespace Midjourney.Core.Extensions
         }
 
 
-        public static void ShowTheTransmission(this dc.pr.Level level)
+        public static async Task ShowTheTransmission(this dc.pr.Level level)
         {
             ValidationHelper.NotNull(level, nameof(level));
             var mobsToRemove = new List<Entity>();
-            foreach (Entity entity in level.entities.AsEnumerable())
+            await foreach (Entity entity in level.entities.AsEnumerableAsync())
             {
                 if (entity is dc.en.inter.Teleport)
                 {
                     mobsToRemove.Add(entity);
                 }
             }
-            foreach (dc.en.inter.Teleport teleport in mobsToRemove)
+            await foreach (dc.en.inter.Teleport teleport in mobsToRemove.ToAsyncEnumerable())
             {
                 try
                 {

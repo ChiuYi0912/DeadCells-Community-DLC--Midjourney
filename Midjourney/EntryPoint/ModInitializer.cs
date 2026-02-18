@@ -94,8 +94,14 @@ public class ModInitializer(ModInfo info) : ModBase(info),
     }
 
 
+
+
+
     void IOnHeroUpdate.OnHeroUpdate(double dt)
     {
-        
+
     }
+
+
+
 }

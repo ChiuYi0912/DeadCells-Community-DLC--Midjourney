@@ -4,7 +4,6 @@ using dc.hl.types;
 using IngameDebugConsole;
 using Midjourney.Core.Utilities;
 using ModCore.Modules;
-using Serilog.Core;
 
 namespace Midjourney.Core.Extensions
 {
@@ -21,7 +20,7 @@ namespace Midjourney.Core.Extensions
         }
 
         [ConsoleMethod("show-removemobs", "显示所有移除的实体")]
-        public static void ShowAllEntities(TextWriter writer)
+        public static async Task ShowAllEntities(TextWriter writer)
         {
             if (Entities == null)
             {
@@ -30,14 +29,14 @@ namespace Midjourney.Core.Extensions
             }
             ValidationHelper.NotNull(Entities, nameof(Entities));
             ArrayObj obj = Entities.ToArrayObj();
-            foreach (var entity in obj.AsEnumerable())
+            await foreach (var entity in obj.AsEnumerableAsync())
             {
                 writer.WriteLine($"实体: {entity}");
             }
         }
 
         [ConsoleMethod("show-port", "照亮所有传送门")]
-        public static void ShowAllTeleports(TextWriter writer)
+        public static async Task ShowAllTeleports(TextWriter writer)
         {
             Hero hero = Game.Instance.HeroInstance!;
             if (hero == null)
@@ -46,7 +45,7 @@ namespace Midjourney.Core.Extensions
                 return;
             }
             ValidationHelper.NotNull(hero, nameof(hero));
-            hero._level.ShowTheTransmission();
+            await hero._level.ShowTheTransmission();
         }
     }
 }

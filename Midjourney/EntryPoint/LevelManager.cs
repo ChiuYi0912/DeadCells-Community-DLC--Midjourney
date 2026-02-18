@@ -48,7 +48,7 @@ public class LevelManager :
             try
             {
                 entry.Logger.LogHooks("Registered Level Hook", LoggingHelper.LogLevel.Debug);
-                dc.pr.Hook_Level.init += ModInitializer_Main;
+                dc.pr.Hook_Level.init += Hook_Level_init;
 
                 entry.Logger.LogHooks("Registered Level Structure Hook", LoggingHelper.LogLevel.Debug);
                 Hook__LevelStruct.get += Hook__LevelStruct_get;
@@ -96,7 +96,7 @@ public class LevelManager :
 
 
 
-    private void ModInitializer_Main(Hook_Level.orig_init orig, Level self)
+    private void Hook_Level_init(Hook_Level.orig_init orig, Level self)
     {
         InitProcess(self);
 
@@ -742,7 +742,7 @@ public class LevelManager :
     }
 
 
-    public void InitProcess(dc.pr.Level level)
+    public static void InitProcess(dc.pr.Level level)
     {
         level.name = "process".AsHaxeString();
 

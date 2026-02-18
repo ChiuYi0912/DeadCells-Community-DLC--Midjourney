@@ -108,13 +108,12 @@ namespace Midjourney.Core.Utilities
 
         private static string FormatLogMessage(string message, string? module, LogLevel level)
         {
-            var levelPrefix = GetLevelPrefix(level);
             var modulePrefix = string.IsNullOrEmpty(module) ? "" : $"[{module}] ";
             var colorCode = GetLevelColorCode(level);
 
             var coloredMessage = $"{colorCode}{message}{GameConstants.Colors.LogReset}";
 
-            return $"{modulePrefix}{levelPrefix}{coloredMessage}";
+            return $"{modulePrefix}{coloredMessage}";
         }
 
 
