@@ -27,11 +27,10 @@ namespace Midjourney.Core.Extensions
 
             for (int i = 0; i < arrayObj.length; i++)
             {
-                if (arrayObj.array[i] != null)
-                    yield return arrayObj.array[i]!;
+                if (arrayObj.getDyn(i) != null)
+                    yield return arrayObj.getDyn(i)!;
             }
         }
-
         public static async IAsyncEnumerable<dynamic> AsEnumerableAsync(this ArrayObj arrayObj, [EnumeratorCancellation] CancellationToken cancellationToken = default)
         {
             ValidationHelper.NotNull(arrayObj, nameof(arrayObj));
@@ -153,6 +152,5 @@ namespace Midjourney.Core.Extensions
             }
             return intMap;
         }
-
     }
 }

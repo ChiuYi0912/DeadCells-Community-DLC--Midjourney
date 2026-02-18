@@ -1,9 +1,11 @@
 using dc;
 using dc.en;
 using dc.hl.types;
+using HaxeProxy.Runtime;
 using IngameDebugConsole;
 using Midjourney.Core.Utilities;
 using ModCore.Modules;
+using ModCore.Utilities;
 
 namespace Midjourney.Core.Extensions
 {
@@ -14,6 +16,11 @@ namespace Midjourney.Core.Extensions
         public static void RemoveAllMob(TextWriter writer)
         {
             Hero hero = Game.Instance.HeroInstance!;
+            if (hero == null)
+            {
+                writer.WriteLine("无法找到英雄实例");
+                return;
+            }
             ValidationHelper.NotNull(hero, nameof(hero));
             Entities = Game.Instance.HeroInstance!._level.RemoveAllMobsSafe();
 
@@ -27,7 +34,7 @@ namespace Midjourney.Core.Extensions
                 writer.WriteLine("没有可显示的实体");
                 return;
             }
-            ValidationHelper.NotNull(Entities, nameof(Entities));
+            Entities = (List<Entity>)ValidationHelper.NoNullElements(Entities, nameof(Entities));
             ArrayObj obj = Entities.ToArrayObj();
             await foreach (var entity in obj.AsEnumerableAsync())
             {
@@ -46,6 +53,23 @@ namespace Midjourney.Core.Extensions
             }
             ValidationHelper.NotNull(hero, nameof(hero));
             await hero._level.ShowTheTransmission();
+        }
+
+        [ConsoleMethod("add-listmobs", "添加移除列表中的实体")]
+        public static void AddListMobs(TextWriter writer)
+        {
+            var level = Game.Instance.HeroInstance!._level;
+            ValidationHelper.NotNull(level, nameof(level));
+            if (Entities == null)
+            {
+                writer.WriteLine("列表不存在实体");
+                return;
+            }
+            ValidationHelper.NoNullElements(Entities!, nameof(Entities));
+
+            ArrayObj obj = Entities!.ToArrayObj();
+
+            level.map.AddMobsFromArray(obj, writer);
         }
     }
 }

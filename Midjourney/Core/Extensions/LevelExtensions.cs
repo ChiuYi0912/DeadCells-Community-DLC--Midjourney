@@ -205,23 +205,6 @@ namespace Midjourney.Core.Extensions
         }
 
 
-        public static IEnumerable<Room> GetRooms(this LevelMap map)
-        {
-            ValidationHelper.NotNull(map, nameof(map));
-
-            var rooms = map.rooms;
-            if (rooms.IsNullOrEmpty()) yield break;
-
-            for (int i = 0; i < rooms.length; i++)
-            {
-                var room = rooms.array[i] as Room;
-                if (room != null)
-                {
-                    yield return room;
-                }
-            }
-        }
-
         public static IEnumerable<Marker> GetMarkers(this Room room)
         {
             ValidationHelper.NotNull(room, nameof(room));
@@ -389,16 +372,6 @@ namespace Midjourney.Core.Extensions
             return biomeId.Contains("boss", StringComparison.OrdinalIgnoreCase);
         }
 
-        public static (int width, int height) GetDimensions(this LevelMap map)
-        {
-            ValidationHelper.NotNull(map, nameof(map));
-            return (map.wid, map.hei);
-        }
-
-        public static int GetSeed(this LevelMap map)
-        {
-            ValidationHelper.NotNull(map, nameof(map));
-            return map.seed;
-        }
+       
     }
 }
