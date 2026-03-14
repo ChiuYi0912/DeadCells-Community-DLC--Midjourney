@@ -50,16 +50,9 @@ public class LevelManager :
         {
             try
             {
-                GetLogger.LogHooks("Registered Level Hook", LoggingHelper.LogLevel.Debug);
                 dc.pr.Hook_Level.init += Hook_Level_init;
-
-                GetLogger.LogHooks("Registered Level Structure Hook", LoggingHelper.LogLevel.Debug);
                 Hook__LevelStruct.get += Hook__LevelStruct_get;
-
-                GetLogger.LogHooks("Registered Level Logo Hook", LoggingHelper.LogLevel.Debug);
                 Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
-
-                GetLogger.LogHooks("All hooks have been successfully registered.", LoggingHelper.LogLevel.Success);
             }
             catch (Exception ex)
             {

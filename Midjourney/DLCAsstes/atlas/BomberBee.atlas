@@ -1,0 +1,62 @@
+
+BomberBee.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+idle_05
+  rotate: false
+  xy: 1, 1
+  size: 106, 104
+  orig: 196, 189
+  offset: 53, 41
+  index: 0
+idle_07
+  rotate: false
+  xy: 1, 108
+  size: 105, 103
+  orig: 196, 189
+  offset: 53, 42
+  index: 0
+idle_03
+  rotate: false
+  xy: 109, 108
+  size: 103, 107
+  orig: 196, 189
+  offset: 56, 38
+  index: 0
+idle_04
+  rotate: false
+  xy: 215, 1
+  size: 101, 105
+  orig: 196, 189
+  offset: 54, 39
+  index: 0
+idle_01
+  rotate: false
+  xy: 110, 1
+  size: 101, 103
+  orig: 196, 189
+  offset: 58, 42
+  index: 0
+idle_06
+  rotate: false
+  xy: 215, 109
+  size: 101, 103
+  orig: 196, 189
+  offset: 54, 41
+  index: 0
+idle_00
+  rotate: false
+  xy: 319, 1
+  size: 100, 102
+  orig: 196, 189
+  offset: 55, 42
+  index: 0
+idle_02
+  rotate: false
+  xy: 319, 106
+  size: 96, 107
+  orig: 196, 189
+  offset: 59, 37
+  index: 0

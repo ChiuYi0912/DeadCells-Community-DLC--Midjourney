@@ -1,3 +1,4 @@
+using CoreLibrary.Core.Extensions;
 using dc;
 using dc.hl.types;
 using dc.level;
@@ -5,7 +6,6 @@ using dc.libs;
 using Hashlink.Virtuals;
 using HaxeProxy.Runtime;
 using Microsoft.VisualBasic;
-using Midjourney.Core.Extensions;
 using ModCore.Utilities;
 using Serilog;
 

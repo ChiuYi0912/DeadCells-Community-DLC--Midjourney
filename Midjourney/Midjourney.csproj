@@ -23,14 +23,14 @@
     <PackAssets Include="BackGardenAsstes/**/*" RootInPak="BackGardenAsstes" />
   </ItemGroup>
 
-  <ItemGroup>
+ <ItemGroup>
     <PackageReference Include="DeadCellsCoreModding.MDK" Version="1.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Reference Include="DebugConsole" />
     <Reference Include="CoreLibrary" />
+  </ItemGroup>
+  <ItemGroup>
     <ModDependency Include="CoreLibraryMod" />
-    <ProjectReference Include="D:\Adeadcellsmod\ModTool\DCCMMods\DebugMod\DebugMod\DebugMod.csproj" />
+    <ModDependency Include="DebugConsole" />
   </ItemGroup>
 
 </Project>

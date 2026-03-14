@@ -16,6 +16,8 @@ using HaxeProxy.Runtime;
 using dc.hxsl;
 using CoreLibrary.Core.Interfaces;
 using CoreLibrary.Core.Utilities;
+using IngameDebugConsole;
+using Midjourney.Entities.Mob.FlyMob;
 
 
 namespace Midjourney.EntryPoint;
@@ -43,13 +45,20 @@ public class ModInitializer(ModInfo info) : ModBase(info),
             _ = new EntityManager(this);
 
             Logger.LogEvents("Broadcast the IOnHookInitialize event", LoggingHelper.LogLevel.Verbose);
-            EventSystem.BroadcastEvent<IOnHookInitialize, ModInitializer>(this);
+            EventSystem.BroadcastEvent<IOnHookInitialize>();
         }
     }
 
     void IOnHookInitialize.HookInitialize()
     {
 
+    }
+
+    [ConsoleMethod("bess", "创建蜜蜂")]
+    public static void mobcreate(TextWriter writer)
+    {
+        Hero hero = ModCore.Modules.Game.Instance.HeroInstance!;
+        BomberBee.CreateBees(hero._level, hero.cx, hero.cy, 10, Ref<int>.In(100));
     }
 
 
@@ -66,25 +75,15 @@ public class ModInitializer(ModInfo info) : ModBase(info),
             try
             {
                 Logger.LogInformation("Commencing loading of mod resources");
-
                 var resPath = Info.ModRoot!.GetFilePath("res.pak");
-
                 if (string.IsNullOrWhiteSpace(resPath))
                 {
                     Logger.LogResources("Resource path is empty", LoggingHelper.LogLevel.Error);
                     return;
                 }
-                Logger.LogDebug($"Resource path: {resPath}", LoggingHelper.Modules.Resources);
-
-                Logger.LogResources("Loading resource package file", LoggingHelper.LogLevel.Debug);
                 FsPak.Instance.FileSystem.loadPak(resPath.AsHaxeString());
-
-                Logger.LogResources("Retrieving altered CDB data", LoggingHelper.LogLevel.Debug);
                 var json = CDBManager.Class.instance.getAlteredCDB();
-
-
                 var jsonStr = json.ToString();
-                Logger.LogResources("Load CDB data into the game", LoggingHelper.LogLevel.Debug);
                 dc.Data.Class.loadJson(
                    json,
                    default);
@@ -92,21 +91,15 @@ public class ModInitializer(ModInfo info) : ModBase(info),
             catch (Exception ex)
             {
                 Logger.LogError("An error occurred while loading module resources.", ex, LoggingHelper.Modules.Resources);
-
                 Logger.LogResources($"Error Details: {ex.Message}", LoggingHelper.LogLevel.Error);
             }
         }
     }
 
 
-
-
-
     void IOnHeroUpdate.OnHeroUpdate(double dt)
     {
 
     }
-
-
 
 }
