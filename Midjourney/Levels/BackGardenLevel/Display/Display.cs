@@ -4,6 +4,7 @@ using dc.h2d;
 using dc.h2d.col;
 using dc.h3d;
 using dc.hl.types;
+using dc.hxd;
 using dc.level;
 using dc.libs;
 using dc.libs.heaps;
@@ -21,15 +22,14 @@ namespace Midjourney.Levels.Display
 {
     public class GardenDisp : DynamicBiomeDisp
     {
-
+        public HSpriteBatch sbAddWalls = null!;
+        public HSpriteBatch sbAlcovesTorches = null!;
+        public Bitmap moon = null!;
+        public Scatterer moonscat = null!;
 
         public GardenDisp(Level level, LevelMap map, dc.String mainBiomeKind, dc.String otherBiomeKind, virtual_blendAmbient_blendAmbientFog_blendCamDust_blendCamFog_blendGroundSmoke_blendLights_blendShadows_ blendConfiguration, ArrayObj parallaxInfo) : base(level, map, mainBiomeKind, otherBiomeKind, blendConfiguration, parallaxInfo)
         {
         }
-
-        public HSpriteBatch sbAddWalls = null!;
-        public HSpriteBatch sbAlcovesTorches = null!;
-
 
 
         public override void render()
@@ -42,7 +42,7 @@ namespace Midjourney.Levels.Display
         {
             base.renderBackWalls();
 
-            SpriteLib slib = this.level.slib;
+            SpriteLib slib = level.slib;
 
             int backgroundClass = Const.Class.DP_BACKGROUND;
             double parallaxDepth = 0.02;
@@ -69,7 +69,7 @@ namespace Midjourney.Levels.Display
             double horizontalScale = parallaxBounds.xMax - parallaxBounds.xMin - viewportWidth;
             horizontalScale *= parallax.scrollX;
             horizontalScale += viewportWidth;
-            horizontalScale /= (double)skyBitmap.tile.width;
+            horizontalScale /= skyBitmap.tile.width;
             skyBitmap.scaleX = horizontalScale;
 
             double viewportHeight = parallax.vhei;
@@ -78,7 +78,7 @@ namespace Midjourney.Levels.Display
             double verticalScale = parallaxBounds.yMax - parallaxBounds.yMin - viewportHeight;
             verticalScale *= parallax.scrollY;
             verticalScale += viewportHeight;
-            verticalScale /= (double)skyBitmap.tile.height;
+            verticalScale /= skyBitmap.tile.height;
             skyBitmap.scaleY = verticalScale;
             skyBitmap.blendMode = new BlendMode.Alpha();
 
@@ -95,25 +95,25 @@ namespace Midjourney.Levels.Display
             parallax2.y = (bounds.yMax - bounds.yMin) * 0.5f;
 
 
-            Scatterer scatterer = new Scatterer(parallax2);
+            moonscat = new Scatterer(parallax2);
             tilePath = "bg/Moon".AsHaxeString();
             HlFunc<int, int> flipMode = new HlFunc<int, int>(base.rng.random);
 
             double randomX = 0.5f, randomY = 0.5f;
-            Bitmap bitmap2 = new Bitmap(
+            moon = new Bitmap(
                 slib.getTileRandom(tilePath, Ref<double>.From(ref randomX), Ref<double>.From(ref randomY), flipMode, null),
-                scatterer
+                moonscat
             );
 
 
-            base.applyScatterConf(scatterer, base.lmap.biome.scatterConf);
+            base.applyScatterConf(moonscat, base.lmap.biome.scatterConf);
 
             randomX = 1.0f;
             randomY = 0.918f;
             double VectorZ = 0.710f;
             double VectorW = 1.0F;
-            bitmap2.color = new Vector(Ref<double>.From(ref randomX), Ref<double>.From(ref randomY), Ref<double>.From(ref VectorZ), Ref<double>.From(ref VectorW));
-            bitmap2.blendMode = new BlendMode.AlphaAdd();
+            moon.color = new Vector(Ref<double>.From(ref randomX), Ref<double>.From(ref randomY), Ref<double>.From(ref VectorZ), Ref<double>.From(ref VectorW));
+            moon.blendMode = new BlendMode.AlphaAdd();
 
         }
 
@@ -128,7 +128,7 @@ namespace Midjourney.Levels.Display
             bool shouldAddAlcoves = (z.gFlags & 64) == 0 && z.hasGround && (z.gFlags & 8) != 0 && (z.flags & 16) == 0 && z.xmax - z.xmin >= 7 && z.ymax - z.ymin >= 5;
             if (shouldAddAlcoves)
             {
-                this.AddAlcoves(z);
+                AddAlcoves(z);
             }
 
         }
@@ -237,7 +237,7 @@ namespace Midjourney.Levels.Display
 
             if (spriteLib != null)
             {
-                HSpriteBatch spriteBatch = this.sbAlcovesTorches;
+                HSpriteBatch spriteBatch = sbAlcovesTorches;
                 if (spriteBatch != null && spriteBatch.tile.isDisposed())
                 {
                     dynamic tile = spriteLib.pages.array[0]!;
@@ -248,6 +248,10 @@ namespace Midjourney.Levels.Display
                     }
                 }
             }
+        }
+        public override void postUpdate()
+        {
+            base.postUpdate();
         }
     }
 }

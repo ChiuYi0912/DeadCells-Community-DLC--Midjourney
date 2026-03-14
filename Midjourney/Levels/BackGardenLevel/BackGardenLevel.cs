@@ -5,11 +5,11 @@ using dc.pr;
 using Hashlink.Virtuals;
 using HaxeProxy.Runtime;
 using ModCore.Utilities;
-using Midjourney.Core.Interfaces;
 using Serilog;
 using Midjourney.Utils;
 using Midjourney.Levels.Struct;
 using Midjourney.Levels.Disp;
+using Midjourney.Core.Interfaces;
 
 namespace Midjourney.Levels.BackGarden
 {
@@ -37,7 +37,7 @@ namespace Midjourney.Levels.BackGarden
 
         public dc.level.LevelDisp CreateLevelDisplay(dc.pr.Level level, dc.level.LevelMap map)
         {
-            return InitializeGardenDisp.CreateGardenDisp(level, map, this.Biome);
+            return InitializeGardenDisp.CreateGardenDisp(level, map, Biome);
         }
 
 

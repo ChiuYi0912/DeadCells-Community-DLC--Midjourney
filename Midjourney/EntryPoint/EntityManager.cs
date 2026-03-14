@@ -2,8 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Midjourney.Core.Extensions;
-using Midjourney.Core.Utilities;
+using CoreLibrary.Core.Utilities;
 using ModCore.Events;
 
 namespace Midjourney.EntryPoint
@@ -11,10 +10,12 @@ namespace Midjourney.EntryPoint
     public class EntityManager:
     IEventReceiver
     {
+        public readonly Serilog.ILogger GetLogger;
         public EntityManager(ModInitializer entry)
         {
-                entry.Logger.LogEntityManager("Entity Manager initialisation commences", LoggingHelper.LogLevel.Information);
-                EventSystem.AddReceiver(this);
+            GetLogger =entry.Logger;
+            GetLogger.LogInformation("Entity Manager initialisation commences");
+            EventSystem.AddReceiver(this);
         }
     }
 }

@@ -1,5 +1,6 @@
-using Midjourney.Core.Interfaces;
-using Midjourney.Core.Utilities;
+
+using CoreLibrary.Core.Interfaces;
+using CoreLibrary.Core.Utilities;
 using ModCore.Events;
 
 namespace Midjourney.EntryPoint
@@ -8,13 +9,15 @@ namespace Midjourney.EntryPoint
     IEventReceiver,
     IOnHookInitialize
     {
+        public readonly Serilog.ILogger GetLogger;
         public WeaponManager(ModInitializer entry)
         {
-            entry.Logger.LogInformation("Weapon Manager initialisation commences", "WeaponManager");
+            GetLogger =entry.Logger;
+            GetLogger.LogInformation("Weapon Manager initialisation commences", "WeaponManager");
             EventSystem.AddReceiver(this);
         }
 
-        void IOnHookInitialize.HookInitialize(ModInitializer entry)
+        void IOnHookInitialize.HookInitialize()
         {
 
         }

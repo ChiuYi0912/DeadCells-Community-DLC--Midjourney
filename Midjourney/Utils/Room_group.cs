@@ -1,6 +1,6 @@
+using CoreLibrary.Core.Utilities;
 using dc._Data;
 using Midjourney.Core.Interfaces;
-using Midjourney.Core.Utilities;
 using Midjourney.EntryPoint;
 using ModCore.Events;
 using ModCore.Utilities;
@@ -11,11 +11,12 @@ namespace Midjourney.Utils
     IEventReceiver,
     IOnHookInitialize
     {
+        public readonly Serilog.ILogger GetLogger;
         public RoomGroup(ModInitializer entry)
         {
-            entry.Logger.LogInformation("Room Group initialisation commences", "RoomGroup");
+            GetLogger =entry.Logger;
+            GetLogger.LogInformation("Room Group initialisation commences", "RoomGroup");
             EventSystem.AddReceiver(this);
-
         }
         void IOnHookInitialize.HookInitialize(ModInitializer entry)
         {

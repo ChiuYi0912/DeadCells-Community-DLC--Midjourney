@@ -4,15 +4,18 @@ using ModCore.Events;
 using ModCore.Events.Interfaces.Game;
 using ModCore.Modules;
 using dc.tool.mod;
-using Midjourney.Core.Interfaces;
-using Midjourney.Core.Utilities;
-using Midjourney.Core.Extensions;
 using Midjourney.Utils;
 using Midjourney.EntryPoint;
 using dc;
 using dc.hl.types;
 using ModCore.Events.Interfaces.Game.Hero;
 using dc.en;
+using dc.light;
+using dc.pr;
+using HaxeProxy.Runtime;
+using dc.hxsl;
+using CoreLibrary.Core.Interfaces;
+using CoreLibrary.Core.Utilities;
 
 
 namespace Midjourney.EntryPoint;
@@ -29,7 +32,7 @@ public class ModInitializer(ModInfo info) : ModBase(info),
     {
         Config.Value.debugMode = true;
         Config.Save();
-        Logger.LogModInitializer("Commencing initialisation of the Midjourney DLC module", LoggingHelper.LogLevel.Information);
+        Logger.LogInformation("Commencing initialisation of the Midjourney DLC module");
 
         using (Logger.LogPerformance("Module initialisation", LoggingHelper.Modules.ModInitializer))
         {
@@ -44,10 +47,12 @@ public class ModInitializer(ModInfo info) : ModBase(info),
         }
     }
 
-    void IOnHookInitialize.HookInitialize(ModInitializer entry)
+    void IOnHookInitialize.HookInitialize()
     {
 
     }
+
+
 
     void IOnAfterLoadingCDB.OnAfterLoadingCDB(_Data_ cdb)
     {

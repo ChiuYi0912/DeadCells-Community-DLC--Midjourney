@@ -21,11 +21,12 @@ using dc.tool.quadTree;
 using Hashlink.Virtuals;
 using ModCore.Events;
 using dc.ui.hud;
-using Midjourney.Core.Interfaces;
 using Midjourney.Utils;
-using Midjourney.Core.Utilities;
-using Midjourney.Core.Extensions;
 using Midjourney.Levels.BackGarden;
+using Microsoft.VisualBasic.FileIO;
+using CoreLibrary.Core.Interfaces;
+using CoreLibrary.Core.Utilities;
+using CoreLibrary.Core.Extensions;
 
 
 namespace Midjourney.EntryPoint;
@@ -35,32 +36,34 @@ public class LevelManager :
         IEventReceiver
 
 {
+    public readonly Serilog.ILogger GetLogger;
     public LevelManager(ModInitializer entry)
     {
-        entry.Logger.LogLevelManager("Level Manager initialisation commences", LoggingHelper.LogLevel.Information);
+        GetLogger = entry.Logger;
+        GetLogger.LogInformation("Level Manager initialisation commences");
         EventSystem.AddReceiver(this);
     }
 
-    void IOnHookInitialize.HookInitialize(ModInitializer entry)
+    void IOnHookInitialize.HookInitialize()
     {
-        using (entry.Logger.LogMethodScope(nameof(IOnHookInitialize.HookInitialize)))
+        using (GetLogger.LogMethodScope(nameof(IOnHookInitialize.HookInitialize)))
         {
             try
             {
-                entry.Logger.LogHooks("Registered Level Hook", LoggingHelper.LogLevel.Debug);
+                GetLogger.LogHooks("Registered Level Hook", LoggingHelper.LogLevel.Debug);
                 dc.pr.Hook_Level.init += Hook_Level_init;
 
-                entry.Logger.LogHooks("Registered Level Structure Hook", LoggingHelper.LogLevel.Debug);
+                GetLogger.LogHooks("Registered Level Structure Hook", LoggingHelper.LogLevel.Debug);
                 Hook__LevelStruct.get += Hook__LevelStruct_get;
 
-                entry.Logger.LogHooks("Registered Level Logo Hook", LoggingHelper.LogLevel.Debug);
+                GetLogger.LogHooks("Registered Level Logo Hook", LoggingHelper.LogLevel.Debug);
                 Hook_LevelLogos.getLevelLogo += Hook_LevelLogos_getLevelLogo;
 
-                entry.Logger.LogHooks("All hooks have been successfully registered.", LoggingHelper.LogLevel.Success);
+                GetLogger.LogHooks("All hooks have been successfully registered.", LoggingHelper.LogLevel.Success);
             }
             catch (Exception ex)
             {
-                entry.Logger.LogError("An error occurred while registering the hook.", ex, LoggingHelper.Modules.Hooks);
+                GetLogger.LogError("An error occurred while registering the hook.", ex, LoggingHelper.Modules.Hooks);
                 throw;
             }
         }
@@ -382,6 +385,9 @@ public class LevelManager :
         self.sbCritters.blendMode = new BlendMode.Alpha();
         self.lDisp.applyLayerConf(self.sbCritters, "MainFrontWalls".AsHaxeString(), Ref<bool>.Null, Ref<double>.Null);
 
+
+
+
         SplatterCont splatterCont = new SplatterCont(null);
         self.scroller.addChildAt(splatterCont, Const.Class.DP_ROOM_BACK_FX);
 
@@ -415,7 +421,6 @@ public class LevelManager :
         normalMap = (NormalMap)self.sbPendulum_ChainFront.addShader(new NormalMap(self.norm));
         self.sbPendulum_ChainFront.blendMode = new BlendMode.Alpha();
         self.lDisp.applyLayerConf(self.sbPendulum_ChainBack, "MainBackProps".AsHaxeString(), Ref<bool>.Null, Ref<double>.Null);
-
 
 
 

@@ -28,8 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="DebugConsole" />
-    <ModDependency Include="DebugConsole" />
+    <Reference Include="CoreLibrary" />
+    <ModDependency Include="CoreLibraryMod" />
+    <ProjectReference Include="D:\Adeadcellsmod\ModTool\DCCMMods\DebugMod\DebugMod\DebugMod.csproj" />
   </ItemGroup>
 
 </Project>
