@@ -46,7 +46,7 @@ public class LevelManager :
 
     void IOnHookInitialize.HookInitialize()
     {
-        using (GetLogger.LogMethodScope(nameof(IOnHookInitialize.HookInitialize)))
+        using (GetLogger.LogPerformance(nameof(IOnHookInitialize.HookInitialize)))
         {
             try
             {

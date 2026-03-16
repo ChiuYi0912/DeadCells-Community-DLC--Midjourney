@@ -54,12 +54,7 @@ public class ModInitializer(ModInfo info) : ModBase(info),
 
     }
 
-    [ConsoleMethod("bess", "创建蜜蜂")]
-    public static void mobcreate(TextWriter writer)
-    {
-        Hero hero = ModCore.Modules.Game.Instance.HeroInstance!;
-        BomberBee.CreateBees(hero._level, hero.cx, hero.cy, 10, Ref<int>.In(100));
-    }
+
 
 
 

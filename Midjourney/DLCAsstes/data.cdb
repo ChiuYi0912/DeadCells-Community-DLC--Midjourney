@@ -19,34 +19,34 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"name": "tile"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "comment"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "value0"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "value1"
 				}
@@ -6104,83 +6104,83 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "gameplayDesc"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "ambiantDesc"
 				},
 				{
-					"typeStr": "6:tier",
+					"typeStr": "Ref:tier",
 					"display": null,
 					"opt": true,
 					"name": "tier1"
 				},
 				{
-					"typeStr": "6:tier",
+					"typeStr": "Ref:tier",
 					"display": null,
 					"opt": true,
 					"name": "tier2"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "legendAffixes"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "moneyCost"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "cellCost"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "droppable"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "castCD"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "tags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "synergy"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "commonProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "6:dlc",
+					"typeStr": "Ref:dlc",
 					"display": null,
 					"opt": true,
 					"name": "dlc"
@@ -26790,7 +26790,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:affix",
+					"typeStr": "Ref:affix",
 					"display": null,
 					"name": "affix"
 				}
@@ -26818,132 +26818,132 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "glowInnerColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "glowOuterColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "flesh1"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "flesh2"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"opt": true,
 					"name": "colorSwaps"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "life"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "score"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "volteDelay"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "canBeElite"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minPfSize"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minPfHeight"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "pfCost"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "maxPerRoom"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "maxPerPlatform"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "weight"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "particles"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "skill"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "newSkill"
 				},
 				{
-					"typeStr": "10:SmallPlatforms,Flying,WorldBoss,Protector,StartOnCeiling,NoTeleportIfAggressive,WorldBossSideKick,NoTeleportIfElite,DontSpawnInWater,NoInfectionSpawn,NoTraining,NoGold,IgnoreCurseReduction",
+					"typeStr": "Flags:SmallPlatforms,Flying,WorldBoss,Protector,StartOnCeiling,NoTeleportIfAggressive,WorldBossSideKick,NoTeleportIfElite,DontSpawnInWater,NoInfectionSpawn,NoTraining,NoGold,IgnoreCurseReduction",
 					"name": "genTags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "mobTags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "blueprints"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "metaItems"
 				},
 				{
-					"typeStr": "6:dlc",
+					"typeStr": "Ref:dlc",
 					"display": null,
 					"opt": true,
 					"name": "dlc"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "active"
 				}
@@ -33347,6 +33347,150 @@
 					"index": 46
 				},
 				{
+					"id": "Osty",
+					"score": 2,
+					"canBeElite": true,
+					"minPfSize": 8,
+					"minPfHeight": 0,
+					"pfCost": 0.5,
+					"maxPerRoom": 0,
+					"maxPerPlatform": 3,
+					"props": {
+						"movePauseMul": 0,
+						"moveSpeedMul": 2
+					},
+					"particles": [],
+					"skill": [
+						{
+							"coolDown": 0.8,
+							"power": [
+								10
+							],
+							"props": {},
+							"allowInAir": false,
+							"radius": 1.35,
+							"allowSameSkillNearby": true,
+							"sfxCharge": "sfx/enm/enm_zmb_cc.wav",
+							"charge": 0.8,
+							"manual": false,
+							"id": "cc",
+							"sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+							"disableAnnounceFx": false,
+							"hitFrame": 3,
+							"breachResistance": 0,
+							"lockAiAfter": 0,
+							"ignoreGlobalCD": false
+						},
+						{
+							"coolDown": 4,
+							"power": [
+								20
+							],
+							"props": {
+								"x": 0.55,
+								"y": 0.3,
+								"distance": 6
+							},
+							"allowInAir": false,
+							"radius": 0,
+							"allowSameSkillNearby": false,
+							"sfxCharge": "sfx/enm/enm_zmb_jump.wav",
+							"charge": 0.95,
+							"manual": false,
+							"id": "jump",
+							"sfxRelease": "sfx/enm/enm_zmb_release2.wav",
+							"disableAnnounceFx": false,
+							"hitFrame": 0,
+							"breachResistance": 0,
+							"lockAiAfter": 0,
+							"ignoreGlobalCD": false
+						},
+						{
+							"coolDown": 0,
+							"power": [
+								10
+							],
+							"props": {
+								"bump": 0.4
+							},
+							"allowInAir": true,
+							"radius": 1.8,
+							"allowSameSkillNearby": true,
+							"sfxCharge": "sfx/enm/enm_zmb_cc.wav",
+							"charge": 0.35,
+							"manual": true,
+							"id": "cc2",
+							"sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+							"disableAnnounceFx": false,
+							"hitFrame": 4,
+							"breachResistance": 0,
+							"lockAiAfter": 0.2,
+							"ignoreGlobalCD": true
+						},
+						{
+							"coolDown": 0,
+							"power": [
+								10
+							],
+							"props": {
+								"bump": 0.8
+							},
+							"allowInAir": true,
+							"radius": 1.8,
+							"allowSameSkillNearby": true,
+							"sfxCharge": "sfx/enm/enm_zmb_cc.wav",
+							"charge": 0.2,
+							"manual": true,
+							"id": "cc3",
+							"sfxRelease": "sfx/enm/enm_zmb_release1.wav",
+							"disableAnnounceFx": false,
+							"hitFrame": 4,
+							"breachResistance": 0,
+							"lockAiAfter": 0.2,
+							"ignoreGlobalCD": true
+						}
+					],
+					"newSkill": [],
+					"genTags": 0,
+					"mobTags": [],
+					"blueprints": [
+						{
+							"rarity": "Rare",
+							"item": "HorizontalTurret",
+							"minDifficulty": 0
+						},
+						{
+							"rarity": "Always",
+							"item": "Bleeder",
+							"minDifficulty": 0
+						},
+						{
+							"rarity": "Rare",
+							"item": "PrisonerBobby",
+							"minDifficulty": 1
+						}
+					],
+					"metaItems": [],
+					"active": true,
+					"icon": {
+						"x": 0,
+						"y": 0,
+						"file": "mobIcons.png",
+						"size": 48
+					},
+					"name": "Osty",
+					"glowInnerColor": 11197250,
+					"flesh1": 5669211,
+					"flesh2": 12303527,
+					"life": [
+						120
+					],
+					"volteDelay": 1,
+					"weight": 10,
+					"group": 0,
+					"index": 47
+				},
+				{
 					"newSkill": [],
 					"props": {
 						"movePauseMul": 0,
@@ -33506,7 +33650,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 47
+					"index": 48
 				},
 				{
 					"newSkill": [],
@@ -33603,7 +33747,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 48
+					"index": 49
 				},
 				{
 					"newSkill": [],
@@ -33724,7 +33868,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 49
+					"index": 50
 				},
 				{
 					"newSkill": [],
@@ -33828,7 +33972,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 50
+					"index": 51
 				},
 				{
 					"newSkill": [],
@@ -33942,7 +34086,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 51
+					"index": 52
 				},
 				{
 					"newSkill": [],
@@ -34016,7 +34160,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 52
+					"index": 53
 				},
 				{
 					"newSkill": [],
@@ -34120,7 +34264,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 53
+					"index": 54
 				},
 				{
 					"newSkill": [],
@@ -34212,7 +34356,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 54
+					"index": 55
 				},
 				{
 					"newSkill": [],
@@ -34309,7 +34453,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 55
+					"index": 56
 				},
 				{
 					"newSkill": [],
@@ -34397,7 +34541,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 56
+					"index": 57
 				},
 				{
 					"newSkill": [],
@@ -34534,7 +34678,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 57
+					"index": 58
 				},
 				{
 					"newSkill": [],
@@ -34679,7 +34823,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 58
+					"index": 59
 				},
 				{
 					"newSkill": [],
@@ -34848,7 +34992,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 59
+					"index": 60
 				},
 				{
 					"newSkill": [],
@@ -34939,7 +35083,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 60
+					"index": 61
 				},
 				{
 					"newSkill": [],
@@ -35102,7 +35246,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 61
+					"index": 62
 				},
 				{
 					"newSkill": [],
@@ -35212,7 +35356,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 62
+					"index": 63
 				},
 				{
 					"newSkill": [],
@@ -35347,7 +35491,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 63
+					"index": 64
 				},
 				{
 					"newSkill": [],
@@ -35521,7 +35665,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 64
+					"index": 65
 				},
 				{
 					"newSkill": [],
@@ -35630,7 +35774,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 65
+					"index": 66
 				},
 				{
 					"newSkill": [],
@@ -35726,7 +35870,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 66
+					"index": 67
 				},
 				{
 					"newSkill": [],
@@ -35888,7 +36032,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 67
+					"index": 68
 				},
 				{
 					"newSkill": [],
@@ -35983,7 +36127,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 68
+					"index": 69
 				},
 				{
 					"newSkill": [],
@@ -36087,7 +36231,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 69
+					"index": 70
 				},
 				{
 					"newSkill": [],
@@ -36228,7 +36372,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 70
+					"index": 71
 				},
 				{
 					"newSkill": [],
@@ -36349,7 +36493,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 71
+					"index": 72
 				},
 				{
 					"newSkill": [],
@@ -36422,7 +36566,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 72
+					"index": 73
 				},
 				{
 					"newSkill": [],
@@ -36517,7 +36661,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 73
+					"index": 74
 				},
 				{
 					"newSkill": [],
@@ -36601,7 +36745,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 74
+					"index": 75
 				},
 				{
 					"newSkill": [],
@@ -36707,7 +36851,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 75
+					"index": 76
 				},
 				{
 					"newSkill": [],
@@ -36776,7 +36920,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 76
+					"index": 77
 				},
 				{
 					"newSkill": [],
@@ -36969,7 +37113,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 77
+					"index": 78
 				},
 				{
 					"newSkill": [],
@@ -37038,7 +37182,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 78
+					"index": 79
 				},
 				{
 					"newSkill": [],
@@ -37074,7 +37218,7 @@
 					"maxPerPlatform": 0,
 					"score": 0,
 					"skill": [],
-					"index": 79
+					"index": 80
 				},
 				{
 					"newSkill": [],
@@ -37211,7 +37355,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 80
+					"index": 81
 				},
 				{
 					"newSkill": [],
@@ -37320,7 +37464,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 81
+					"index": 82
 				},
 				{
 					"id": "BomberBee",
@@ -37441,7 +37585,7 @@
 					"volteDelay": 0,
 					"weight": 0,
 					"group": 2,
-					"index": 82
+					"index": 83
 				},
 				{
 					"newSkill": [],
@@ -37503,7 +37647,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 83
+					"index": 84
 				},
 				{
 					"newSkill": [],
@@ -37561,7 +37705,7 @@
 					"flesh1": 12218164,
 					"flesh2": 11247005,
 					"skill": [],
-					"index": 84
+					"index": 85
 				},
 				{
 					"newSkill": [],
@@ -37610,7 +37754,7 @@
 					"flesh1": 16152855,
 					"flesh2": 9336625,
 					"skill": [],
-					"index": 85
+					"index": 86
 				},
 				{
 					"newSkill": [],
@@ -37673,7 +37817,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 86
+					"index": 87
 				},
 				{
 					"newSkill": [],
@@ -37724,7 +37868,7 @@
 					"maxPerPlatform": 0,
 					"score": 5,
 					"skill": [],
-					"index": 87
+					"index": 88
 				},
 				{
 					"newSkill": [],
@@ -37837,7 +37981,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 88
+					"index": 89
 				},
 				{
 					"newSkill": [],
@@ -37967,7 +38111,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 89
+					"index": 90
 				},
 				{
 					"newSkill": [],
@@ -38038,7 +38182,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 90
+					"index": 91
 				},
 				{
 					"newSkill": [
@@ -38369,7 +38513,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 91
+					"index": 92
 				},
 				{
 					"newSkill": [
@@ -38606,7 +38750,7 @@
 					"flesh1": 8906684,
 					"flesh2": 4222064,
 					"skill": [],
-					"index": 92
+					"index": 93
 				},
 				{
 					"newSkill": [
@@ -38885,7 +39029,7 @@
 					"flesh1": 9592575,
 					"flesh2": 8406830,
 					"skill": [],
-					"index": 93
+					"index": 94
 				},
 				{
 					"newSkill": [],
@@ -39084,7 +39228,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 94
+					"index": 95
 				},
 				{
 					"newSkill": [],
@@ -39195,7 +39339,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 95
+					"index": 96
 				},
 				{
 					"newSkill": [],
@@ -39545,7 +39689,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 96
+					"index": 97
 				},
 				{
 					"newSkill": [],
@@ -39740,7 +39884,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 97
+					"index": 98
 				},
 				{
 					"newSkill": [],
@@ -39941,7 +40085,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 98
+					"index": 99
 				},
 				{
 					"newSkill": [],
@@ -40197,7 +40341,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 99
+					"index": 100
 				},
 				{
 					"newSkill": [],
@@ -40287,7 +40431,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 100
+					"index": 101
 				},
 				{
 					"newSkill": [],
@@ -40599,7 +40743,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 101
+					"index": 102
 				},
 				{
 					"newSkill": [],
@@ -40877,7 +41021,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 102
+					"index": 103
 				},
 				{
 					"newSkill": [],
@@ -41357,7 +41501,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 103
+					"index": 104
 				},
 				{
 					"newSkill": [],
@@ -41509,7 +41653,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 104
+					"index": 105
 				},
 				{
 					"newSkill": [],
@@ -41557,7 +41701,7 @@
 					"flesh1": 2739096,
 					"flesh2": 7608463,
 					"skill": [],
-					"index": 105
+					"index": 106
 				},
 				{
 					"newSkill": [],
@@ -41791,7 +41935,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 106
+					"index": 107
 				},
 				{
 					"newSkill": [],
@@ -42046,7 +42190,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 107
+					"index": 108
 				},
 				{
 					"newSkill": [],
@@ -42534,7 +42678,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 108
+					"index": 109
 				},
 				{
 					"newSkill": [],
@@ -42779,7 +42923,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 109
+					"index": 110
 				},
 				{
 					"newSkill": [],
@@ -43024,7 +43168,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 110
+					"index": 111
 				},
 				{
 					"newSkill": [],
@@ -43267,7 +43411,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 111
+					"index": 112
 				},
 				{
 					"newSkill": [],
@@ -44133,7 +44277,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 112
+					"index": 113
 				},
 				{
 					"newSkill": [],
@@ -44405,7 +44549,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 113
+					"index": 114
 				},
 				{
 					"newSkill": [],
@@ -44728,7 +44872,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 114
+					"index": 115
 				},
 				{
 					"newSkill": [],
@@ -45209,7 +45353,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 115
+					"index": 116
 				},
 				{
 					"newSkill": [],
@@ -45242,7 +45386,7 @@
 					"score": 0,
 					"flesh1": 11562569,
 					"skill": [],
-					"index": 116
+					"index": 117
 				},
 				{
 					"newSkill": [],
@@ -45284,7 +45428,7 @@
 					"flesh1": 6015978,
 					"flesh2": 6319781,
 					"skill": [],
-					"index": 117
+					"index": 118
 				},
 				{
 					"newSkill": [],
@@ -45551,7 +45695,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 118
+					"index": 119
 				},
 				{
 					"newSkill": [],
@@ -45636,7 +45780,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 119
+					"index": 120
 				},
 				{
 					"newSkill": [],
@@ -45669,7 +45813,7 @@
 					"score": 0,
 					"flesh1": 11562569,
 					"skill": [],
-					"index": 120
+					"index": 121
 				},
 				{
 					"newSkill": [],
@@ -45720,7 +45864,7 @@
 					"score": 3,
 					"flesh1": 6788729,
 					"skill": [],
-					"index": 121
+					"index": 122
 				},
 				{
 					"newSkill": [],
@@ -45792,7 +45936,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 122
+					"index": 123
 				},
 				{
 					"newSkill": [],
@@ -45862,7 +46006,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 123
+					"index": 124
 				},
 				{
 					"newSkill": [],
@@ -45997,7 +46141,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 124
+					"index": 125
 				},
 				{
 					"newSkill": [],
@@ -46058,7 +46202,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 125
+					"index": 126
 				},
 				{
 					"newSkill": [],
@@ -46117,7 +46261,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 126
+					"index": 127
 				},
 				{
 					"newSkill": [],
@@ -46190,7 +46334,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 127
+					"index": 128
 				},
 				{
 					"newSkill": [],
@@ -46324,7 +46468,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 128
+					"index": 129
 				},
 				{
 					"newSkill": [],
@@ -46420,7 +46564,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 129
+					"index": 130
 				},
 				{
 					"newSkill": [],
@@ -46515,7 +46659,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 130
+					"index": 131
 				},
 				{
 					"newSkill": [],
@@ -46548,7 +46692,7 @@
 					"score": 0,
 					"flesh1": 11562569,
 					"skill": [],
-					"index": 131
+					"index": 132
 				},
 				{
 					"newSkill": [],
@@ -46672,7 +46816,7 @@
 							"ignoreGlobalCD": false
 						}
 					],
-					"index": 132
+					"index": 133
 				},
 				{
 					"newSkill": [],
@@ -46849,7 +46993,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 133
+					"index": 134
 				},
 				{
 					"newSkill": [],
@@ -47016,7 +47160,7 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 134
+					"index": 135
 				},
 				{
 					"newSkill": [],
@@ -47118,19 +47262,19 @@
 							"ignoreGlobalCD": true
 						}
 					],
-					"index": 135
+					"index": 136
 				}
 			],
 			"separators": [
 				0,
-				47,
-				70,
-				83,
-				94,
-				98,
-				116,
-				124,
-				129
+				48,
+				71,
+				84,
+				95,
+				99,
+				117,
+				125,
+				130
 			]
 		},
 		{
@@ -47139,15 +47283,15 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "source"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "target"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "tolerance"
 				}
@@ -47160,29 +47304,29 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "airControlAlways"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "isACancel"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "allowCrouch"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "cannotBeCanceledByWeapon"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "strikeChain"
 				}
 			],
@@ -60087,252 +60231,252 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "effectCD"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "dps"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "size"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "effectCharge"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "life"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "buff"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "uses"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "castTime"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "chance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "triggerOnHit"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "tick"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "distance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "aoeDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bonus"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "dotDps"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "debuff"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bump"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "dps2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "width"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "height"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "frict"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "ang"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "lock"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power3"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "limit"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "cooldown"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxNumberOfMarks"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration3"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct3"
 				},
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"display": null,
 					"opt": true,
 					"name": "mob"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "min"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "max"
 				}
@@ -60348,322 +60492,322 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "obstruateDoors"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "bumpResistance"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "climbEndDist"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "movePauseMul"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "moveSpeedMul"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "near"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "far"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "fallResistance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "cannotBeShield"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "cannotBeBackstabbed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "noContactAttack"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "immortalityDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "directHitStunChance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "doNotScaleLife"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "cannotChangeDir"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "actionCost"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "insensitiveSpike"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "immortalityLifeMul"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "cellLoot"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "disableEliteSidekicks"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "cellRatioCount"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "isTrashMob"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "dmgSoftCap"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "combatMusic"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "combatMusicIntro"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "minSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "maxSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "delay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "walkAnimSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "directHitStunDuration"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "highlightOnKill"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "dontSpatialiseSounds"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "cannotBeHooked"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "gemDropSize"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "hideInStatPanel"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "directHitBumpForce"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "stunDurationAfterFall"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "cannotBeNecromanced"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "reducedGravityFactor"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "noCollideHero"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lockAiPhase"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "chainSegmentCount"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fixedCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "moveCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "yStepOffset"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "runFactor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "idleAnimSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bounceMagnitude"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bounceFrequence"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bloodGauge"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "sfxMaxDistance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noHitDistort"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "pickUpScale"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "armor"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "evolveThreshold"
 				}
@@ -60678,23 +60822,23 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:particleConf",
+					"typeStr": "Ref:particleConf",
 					"name": "conf"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "tickRate"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "count"
 				},
 				{
-					"typeStr": "5:BgAlpha,BgAdd,BgDisplace,MidAdd,MidDisplace,TopAlpha,TopAdd,TopDisplace",
+					"typeStr": "Enum:BgAlpha,BgAdd,BgDisplace,MidAdd,MidDisplace,TopAlpha,TopAdd,TopDisplace",
 					"name": "spriteBatch"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "trackerName"
 				}
 			],
@@ -60709,104 +60853,104 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "id"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "charge"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "coolDown"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "chargeAnim"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "chargeAnimSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "execAnim"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "execAnimSpd"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "hitFrame"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "fxId"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "lockAiAfter"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "radius"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "breachResistance"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "disableAnnounceFx"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "manual"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "allowInAir"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "allowSameSkillNearby"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "ignoreGlobalCD"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfxCharge"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfxRelease"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfxHit"
@@ -60822,81 +60966,81 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "charge"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "cooldown"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "lockAiAfter"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "hitFrame"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "chargeAnim"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "execAnim"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "fx"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "area"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "projectile"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "breachResistance"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "commonEffects"
 				},
 				{
-					"typeStr": "10:DisableAnnounce,Manual,AllowInAir,AllowSameSkillNearby,IgnoreGlobalCD,CanCancelOtherSkills,CanTriggerThroughWalls",
+					"typeStr": "Flags:DisableAnnounce,Manual,AllowInAir,AllowSameSkillNearby,IgnoreGlobalCD,CanCancelOtherSkills,CanTriggerThroughWalls",
 					"name": "triggerFlags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "sfx"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "autoInit"
 				}
 			],
@@ -60911,22 +61055,22 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "name"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "loop"
 				}
 			],
@@ -60941,21 +61085,21 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "name"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "loop"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				}
@@ -60971,31 +61115,31 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:skillTrigger",
+					"typeStr": "Ref:skillTrigger",
 					"name": "trigger"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "id"
 				},
 				{
-					"typeStr": "6:fxAllocMode",
+					"typeStr": "Ref:fxAllocMode",
 					"name": "allocMode"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "triggerParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "playParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "color"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "transform"
 				}
@@ -61011,16 +61155,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "startFrame"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "customId"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "minMaxRatio"
 				}
@@ -61036,17 +61180,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "innerColor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "alpha"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "outerColor"
 				}
@@ -61062,17 +61206,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "loopWhileTrigger"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "loopDur"
 				}
@@ -61088,12 +61232,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "offset"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "scale"
 				}
@@ -61108,24 +61252,24 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:areaShape",
+					"typeStr": "Ref:areaShape",
 					"name": "shape"
 				},
 				{
-					"typeStr": "6:areaDir",
+					"typeStr": "Ref:areaDir",
 					"name": "direction"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "triggerParams"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"display": null,
 					"name": "size"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"display": null,
 					"name": "offsetCase"
 				}
@@ -61140,35 +61284,35 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:skillTrigger",
+					"typeStr": "Ref:skillTrigger",
 					"name": "trigger"
 				},
 				{
-					"typeStr": "6:bulletType",
+					"typeStr": "Ref:bulletType",
 					"name": "type"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "sprite"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "tail"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "triggerParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "movement"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "collision"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "spawnRepeat"
 				}
 			],
@@ -61183,21 +61327,21 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:bulletTailType",
+					"typeStr": "Ref:bulletTailType",
 					"name": "type"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lineAlpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lineThickness"
 				}
@@ -61213,17 +61357,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "delay"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"display": 1,
 					"opt": true,
 					"name": "minMaxRatio"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "customId"
 				}
@@ -61239,20 +61383,20 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ang"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rangeCase"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speed"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "spawnOffsetPixel"
 				}
@@ -61268,11 +61412,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "pierce"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "ignoreWalls"
 				}
@@ -61288,16 +61432,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "tick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "angOffset"
 				}
 			],
@@ -61312,31 +61456,31 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "delay"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "customId"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noDamage"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noTrigger"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noAutoHit"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noAttack"
 				}
@@ -61351,19 +61495,19 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:skillTrigger",
+					"typeStr": "Ref:skillTrigger",
 					"name": "trigger"
 				},
 				{
-					"typeStr": "6:skillTarget",
+					"typeStr": "Ref:skillTarget",
 					"name": "target"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "triggerParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "effects"
 				}
 			],
@@ -61378,17 +61522,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "delay"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"display": 1,
 					"opt": true,
 					"name": "minMaxRatio"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "customId"
 				}
@@ -61404,17 +61548,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "bump"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "cautiousBump"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "stun"
 				}
@@ -61429,25 +61573,25 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:skillTrigger",
+					"typeStr": "Ref:skillTrigger",
 					"name": "trigger"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"name": "file"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "triggerParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": 1,
 					"name": "sfxParams"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "sfxProps"
 				}
 			],
@@ -61462,17 +61606,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "delay"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"display": 1,
 					"opt": true,
 					"name": "minMaxRatio"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "customId"
 				}
@@ -61488,168 +61632,168 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "stunTime"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "x"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "y"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDelay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "distance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "chance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "canCancelOtherSkills"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "canTriggerThroughWall"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "tick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bump"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "dps"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "max"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"opt": true,
 					"name": "mob"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "effectCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "delay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "move"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "height"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDelay2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "life"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "stayDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDistance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ang"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "frict"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "lock"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "width"
 				}
@@ -61665,34 +61809,34 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "volume"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "pitch"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "fadeInOutDur"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "holdWhileTrigger"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "loopWhileHeld"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "spatialized"
 				}
@@ -61708,7 +61852,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "alt"
@@ -61724,7 +61868,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:mobTag",
+					"typeStr": "Ref:mobTag",
 					"display": null,
 					"name": "tag"
 				}
@@ -61740,168 +61884,168 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "stunTime"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "x"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "y"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDelay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "distance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "chance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "canCancelOtherSkills"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "canTriggerThroughWall"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "tick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bump"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "dps"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "max"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"opt": true,
 					"name": "mob"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "effectCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "delay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "move"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "height"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDelay2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "life"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "stayDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "triggerDistance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ang"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "frict"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "lock"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "width"
 				}
@@ -61925,91 +62069,91 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "chance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "costImpact"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "desc"
 				},
 				{
-					"typeStr": "5:Weapon,Active,WeaponOrActive,Talisman",
+					"typeStr": "Enum:Weapon,Active,WeaponOrActive,Talisman",
 					"opt": true,
 					"name": "itemRestriction"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "requiredTags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "forbiddenTags"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "forbiddenAffixes"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "forbiddenItem"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "bonusItem"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "sortPriority"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "commonProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "props"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "synergy"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "allowStacking"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "keepOnReroll"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "pickForTwitch"
 				}
 			],
@@ -70116,18 +70260,18 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"opt": true,
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "color"
 				}
 			],
@@ -70940,15 +71084,15 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "color"
 				}
@@ -71064,11 +71208,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "name"
 				}
 			],
@@ -71111,124 +71255,124 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"opt": true,
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "6:biome",
+					"typeStr": "Ref:biome",
 					"name": "biome"
 				},
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"display": null,
 					"opt": true,
 					"name": "transitionTo"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "worldDepth"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "mapDepth"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "mobs"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "specificSubBiome"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "baseLootLevel"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "cellBonus"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "tripleUps"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "doubleUps"
 				},
 				{
-					"typeStr": "6:difficulty",
+					"typeStr": "Ref:difficulty",
 					"opt": true,
 					"name": "bonusTripleScrollAfterBC"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "quarterUpsBC3"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "quarterUpsBC4"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "mobDensity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "eliteWanderChance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "eliteRoomChance"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "flagsProps"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "specificLoots"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minGold"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "parallax"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "loreDescriptions"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "nextLevels"
 				},
 				{
-					"typeStr": "6:dlc",
+					"typeStr": "Ref:dlc",
 					"display": null,
 					"opt": true,
 					"name": "dlc"
@@ -94678,20 +94822,20 @@
 			},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "6:roomType",
+					"typeStr": "Ref:roomType",
 					"opt": true,
 					"name": "type"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "active"
 				},
 				{
-					"typeStr": "10:LinkFlip,Outside,NoFlip,Holes,FatalFall,LoreRequired",
+					"typeStr": "Flags:LinkFlip,Outside,NoFlip,Holes,FatalFall,LoreRequired",
 					"name": "flags"
 				}
 			],
@@ -111059,46 +111203,46 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon2"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "color"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "defaultXr"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "defaultYr"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "keep"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "pfOccupationDist"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "cdbChecks"
 				},
 				{
-					"typeStr": "10:tmxprop_dir,tmxprop_customId,tmxprop_mob,tmxprop_item,tmxprop_light,tmxprop_level,tmxprop_layer,tmxprop_offset,tmxprop_playMode,tmxprop_playSpeed,tmxprop_blendMode,tmxprop_color,tmxprop_color2,tmxprop_Bool_ignoreTwitch,tmxprop_rotation",
+					"typeStr": "Flags:tmxprop_dir,tmxprop_customId,tmxprop_mob,tmxprop_item,tmxprop_light,tmxprop_level,tmxprop_layer,tmxprop_offset,tmxprop_playMode,tmxprop_playSpeed,tmxprop_blendMode,tmxprop_color,tmxprop_color2,tmxprop_Bool_ignoreTwitch,tmxprop_rotation",
 					"opt": true,
 					"name": "tmxProps"
 				}
@@ -112965,116 +113109,116 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "charge"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "coolDown"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "lockCtrlAfter"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "hitFrame"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "earlyCombo"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "animId"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "animSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "fxId"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "fxProps"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "onionSkinFrame"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "onionSkinOffX"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "glowColor"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "area"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "breachBonus"
 				},
 				{
-					"typeStr": "5:None,Holded,OnceThenHolded,ShortOrFull",
+					"typeStr": "Enum:None,Holded,OnceThenHolded,ShortOrFull",
 					"name": "dynamicCharge"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "canCrit"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "critMul"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "sfxCharge"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfxRelease"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfxHit"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "sfxProps"
 				}
 			],
@@ -113088,7 +113232,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"display": null,
 					"name": "mob"
 				}
@@ -113104,133 +113248,133 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "tick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "limit"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "threshold"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "dps"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "pct"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bump"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "aoeDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fullCharge"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "scale"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color2"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "altAnim"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "hitFx"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "angle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bump2"
 				}
@@ -113246,58 +113390,58 @@
 			},
 			"columns": [
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "sfxChargePitch"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "sfxChargeVolume"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "sfxChargeFadeOutTime"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "sfxReleasePitch"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "sfxReleaseVolume"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "sfxReleaseFadeOutTime"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "sfxHitPitch"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "sfxHitVolume"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "sfxHitFadeOutTime"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "sfxAlt"
 				}
@@ -113314,11 +113458,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "color"
 				}
 			],
@@ -113553,43 +113697,43 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "name"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "color"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "disableWallShadows"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"name": "intensity"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"name": "decayStart"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"name": "decayPower"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"name": "radius"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"name": "depth"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "animated"
 				}
@@ -115852,69 +115996,69 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"name": "mob"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "quantityFactor"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "singleRoom"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "singleRoomRatio"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minCombatRoomsBefore"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxCombatRoomsBefore"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "minDifficulty"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "maxDifficulty"
 				},
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"opt": true,
 					"name": "requiredLevel"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "requiredDepth"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "packSize"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "spawnWith"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxSpawn"
 				}
@@ -115930,26 +116074,26 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Circle,Rect",
+					"typeStr": "Enum:Circle,Rect",
 					"display": null,
 					"name": "shape"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "width"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "height"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "offsetCaseX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "offsetCaseY"
 				}
@@ -115962,142 +116106,142 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "atlasName"
 				},
 				{
-					"typeStr": "5:Default,Alternative,Purple",
+					"typeStr": "Enum:Default,Alternative,Purple",
 					"opt": true,
 					"name": "commonAtlas"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "ambient"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ambientScale"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "celShadow"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "smoke"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "water"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "cloud"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "waterLight"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "fog"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "lavaBg"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "lavaSurface"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"opt": true,
 					"name": "glowData"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "fogScale"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "vegetation"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "floorStamps"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "floorJunkDensity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "wallJunkDensity"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "layers"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "lightColors"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"opt": true,
 					"name": "smokeShader"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"opt": true,
 					"name": "camEffects"
 				},
 				{
-					"typeStr": "6:scatterConf",
+					"typeStr": "Ref:scatterConf",
 					"opt": true,
 					"name": "scatterConf"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "vegetationRandScale"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "oneWayOpaque"
 				},
 				{
-					"typeStr": "5:GENERIC,PADDEDCELL,ROOM,BATHROOM,LIVINGROOM,STONEROOM,AUDITORIUM,CONCERTHALL,CAVE,ARENA,HANGAR,CARPETEDHALLWAY,HALLWAY,STONECORRIDOR,ALLEY,FOREST,CITY,MOUNTAINS,QUARRY,PLAIN,PARKINGLOT,SEWERPIPE,UNDERWATER,DRUGGED,DIZZY,PSYCHOTIC,CASTLE_SMALLROOM,CASTLE_SHORTPASSAGE,CASTLE_MEDIUMROOM,CASTLE_LARGEROOM,CASTLE_LONGPASSAGE,CASTLE_HALL,CASTLE_CUPBOARD,CASTLE_COURTYARD,CASTLE_ALCOVE,FACTORY_SMALLROOM,FACTORY_SHORTPASSAGE,FACTORY_MEDIUMROOM,FACTORY_LARGEROOM,FACTORY_LONGPASSAGE,FACTORY_HALL,FACTORY_CUPBOARD,FACTORY_COURTYARD,FACTORY_ALCOVE,ICEPALACE_SMALLROOM,ICEPALACE_SHORTPASSAGE,ICEPALACE_MEDIUMROOM,ICEPALACE_LARGEROOM,ICEPALACE_LONGPASSAGE,ICEPALACE_HALL,ICEPALACE_CUPBOARD,ICEPALACE_COURTYARD,ICEPALACE_ALCOVE,SPACESTATION_SMALLROOM,SPACESTATION_SHORTPASSAGE,SPACESTATION_MEDIUMROOM,SPACESTATION_LARGEROOM,SPACESTATION_LONGPASSAGE,SPACESTATION_HALL,SPACESTATION_CUPBOARD,SPACESTATION_ALCOVE,WOODEN_SMALLROOM,WOODEN_SHORTPASSAGE,WOODEN_MEDIUMROOM,WOODEN_LARGEROOM,WOODEN_LONGPASSAGE,WOODEN_HALL,WOODEN_CUPBOARD,WOODEN_COURTYARD,WOODEN_ALCOVE,SPORT_EMPTYSTADIUM,SPORT_SQUASHCOURT,SPORT_SMALLSWIMMINGPOOL,SPORT_LARGESWIMMINGPOOL,SPORT_GYMNASIUM,SPORT_FULLSTADIUM,SPORT_STADIUMTANNOY,PREFAB_WORKSHOP,PREFAB_SCHOOLROOM,PREFAB_PRACTISEROOM,PREFAB_OUTHOUSE,PREFAB_CARAVAN,DOME_TOMB,PIPE_SMALL,DOME_SAINTPAULS,PIPE_LONGTHIN,PIPE_LARGE,PIPE_RESONANT,OUTDOORS_BACKYARD,OUTDOORS_ROLLINGPLAINS,OUTDOORS_DEEPCANYON,OUTDOORS_CREEK,OUTDOORS_VALLEY,MOOD_HEAVEN,MOOD_HELL,MOOD_MEMORY,DRIVING_COMMENTATOR,DRIVING_PITGARAGE,DRIVING_INCAR_RACER,DRIVING_INCAR_SPORTS,DRIVING_INCAR_LUXURY,DRIVING_FULLGRANDSTAND,DRIVING_EMPTYGRANDSTAND,DRIVING_TUNNEL,CITY_STREETS,CITY_SUBWAY,CITY_MUSEUM,CITY_LIBRARY,CITY_UNDERPASS,CITY_ABANDONED,DUSTYROOM,CHAPEL,SMALLWATERROOM",
+					"typeStr": "Enum:GENERIC,PADDEDCELL,ROOM,BATHROOM,LIVINGROOM,STONEROOM,AUDITORIUM,CONCERTHALL,CAVE,ARENA,HANGAR,CARPETEDHALLWAY,HALLWAY,STONECORRIDOR,ALLEY,FOREST,CITY,MOUNTAINS,QUARRY,PLAIN,PARKINGLOT,SEWERPIPE,UNDERWATER,DRUGGED,DIZZY,PSYCHOTIC,CASTLE_SMALLROOM,CASTLE_SHORTPASSAGE,CASTLE_MEDIUMROOM,CASTLE_LARGEROOM,CASTLE_LONGPASSAGE,CASTLE_HALL,CASTLE_CUPBOARD,CASTLE_COURTYARD,CASTLE_ALCOVE,FACTORY_SMALLROOM,FACTORY_SHORTPASSAGE,FACTORY_MEDIUMROOM,FACTORY_LARGEROOM,FACTORY_LONGPASSAGE,FACTORY_HALL,FACTORY_CUPBOARD,FACTORY_COURTYARD,FACTORY_ALCOVE,ICEPALACE_SMALLROOM,ICEPALACE_SHORTPASSAGE,ICEPALACE_MEDIUMROOM,ICEPALACE_LARGEROOM,ICEPALACE_LONGPASSAGE,ICEPALACE_HALL,ICEPALACE_CUPBOARD,ICEPALACE_COURTYARD,ICEPALACE_ALCOVE,SPACESTATION_SMALLROOM,SPACESTATION_SHORTPASSAGE,SPACESTATION_MEDIUMROOM,SPACESTATION_LARGEROOM,SPACESTATION_LONGPASSAGE,SPACESTATION_HALL,SPACESTATION_CUPBOARD,SPACESTATION_ALCOVE,WOODEN_SMALLROOM,WOODEN_SHORTPASSAGE,WOODEN_MEDIUMROOM,WOODEN_LARGEROOM,WOODEN_LONGPASSAGE,WOODEN_HALL,WOODEN_CUPBOARD,WOODEN_COURTYARD,WOODEN_ALCOVE,SPORT_EMPTYSTADIUM,SPORT_SQUASHCOURT,SPORT_SMALLSWIMMINGPOOL,SPORT_LARGESWIMMINGPOOL,SPORT_GYMNASIUM,SPORT_FULLSTADIUM,SPORT_STADIUMTANNOY,PREFAB_WORKSHOP,PREFAB_SCHOOLROOM,PREFAB_PRACTISEROOM,PREFAB_OUTHOUSE,PREFAB_CARAVAN,DOME_TOMB,PIPE_SMALL,DOME_SAINTPAULS,PIPE_LONGTHIN,PIPE_LARGE,PIPE_RESONANT,OUTDOORS_BACKYARD,OUTDOORS_ROLLINGPLAINS,OUTDOORS_DEEPCANYON,OUTDOORS_CREEK,OUTDOORS_VALLEY,MOOD_HEAVEN,MOOD_HELL,MOOD_MEMORY,DRIVING_COMMENTATOR,DRIVING_PITGARAGE,DRIVING_INCAR_RACER,DRIVING_INCAR_SPORTS,DRIVING_INCAR_LUXURY,DRIVING_FULLGRANDSTAND,DRIVING_EMPTYGRANDSTAND,DRIVING_TUNNEL,CITY_STREETS,CITY_SUBWAY,CITY_MUSEUM,CITY_LIBRARY,CITY_UNDERPASS,CITY_ABANDONED,DUSTYROOM,CHAPEL,SMALLWATERROOM",
 					"opt": true,
 					"name": "reverbKind"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "reverbMix"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "uiProps"
 				}
 			],
@@ -122680,46 +122824,46 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "glowKey"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "glowInner"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "glowOuter"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "isAnimated"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationIntensity"
 				},
 				{
-					"typeStr": "5:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
+					"typeStr": "Enum:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
 					"opt": true,
 					"name": "animationMask"
 				}
@@ -122734,26 +122878,26 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:layer",
+					"typeStr": "Ref:layer",
 					"display": null,
 					"name": "layer"
 				},
 				{
-					"typeStr": "5:None,Default,Toon",
+					"typeStr": "Enum:None,Default,Toon",
 					"name": "lightType"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lightDepth"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "gradientName"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "gradientScale"
@@ -122767,7 +122911,7 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				}
@@ -122810,38 +122954,38 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:lightConf",
+					"typeStr": "Ref:lightConf",
 					"display": null,
 					"name": "conf"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "color"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "intensity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "decayStart"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "decayPower"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "radius"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "depth"
 				}
@@ -122854,26 +122998,26 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "exposure"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "decay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "density"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "weight"
 				}
@@ -123016,75 +123160,75 @@
 			},
 			"columns": [
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "radius"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "coolDown"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "dps"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "aoeDuration"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "multiplier"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				}
@@ -123099,11 +123243,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:synergyTag",
+					"typeStr": "Ref:synergyTag",
 					"name": "tag"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "trigger"
 				}
 			],
@@ -123117,7 +123261,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:itemTag",
+					"typeStr": "Ref:itemTag",
 					"opt": true,
 					"name": "tag"
 				}
@@ -123132,7 +123276,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:itemTag",
+					"typeStr": "Ref:itemTag",
 					"opt": true,
 					"name": "tag"
 				}
@@ -123147,16 +123291,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Weapon,Active,WeaponOrActive,Talisman,ChosenTier",
+					"typeStr": "Enum:Weapon,Active,WeaponOrActive,Talisman,ChosenTier",
 					"opt": true,
 					"name": "kind"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minDistToSpawn"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxDistToSpawn"
 				}
@@ -123171,7 +123315,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:itemTag",
+					"typeStr": "Ref:itemTag",
 					"opt": true,
 					"name": "tag"
 				}
@@ -123186,12 +123330,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:synergyTag",
+					"typeStr": "Ref:synergyTag",
 					"display": null,
 					"name": "tag"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "trigger"
 				}
 			],
@@ -123206,147 +123350,147 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "chance"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "ceilToolTipValues"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "actcdr"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ammoRecoveryStart"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ammoRecoveryTick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "actcdrIncPerTier"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "autoTransformAfter"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "ammo"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scaledValueCap"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "customScaling"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "disableFloatAnim"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "highActivationPriority"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "deployTimer"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "grenadeKickPow"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "explosionRange"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"opt": true,
 					"name": "item"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"opt": true,
 					"name": "legendaryForm"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "enableAutoPick"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"opt": true,
 					"name": "linkedItems"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "neverCompensateCost"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "revealedAtStart"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "perkInFirstShopOnly"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "longPressPickup"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "reqUnlocks"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "minPerks"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"opt": true,
 					"name": "reqItem"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "targetable"
 				}
@@ -123361,7 +123505,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"name": "item"
 				}
@@ -123376,7 +123520,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:affix",
+					"typeStr": "Ref:affix",
 					"opt": true,
 					"name": "affix"
 				}
@@ -123392,36 +123536,36 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Average,Product,OneMinusProduct",
+					"typeStr": "Enum:Average,Product,OneMinusProduct",
 					"opt": true,
 					"name": "mode"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "alpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "contrib"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "scale"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
@@ -123437,17 +123581,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				},
 				{
-					"typeStr": "6:blueprintDrop",
+					"typeStr": "Ref:blueprintDrop",
 					"display": null,
 					"name": "rarity"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "minDifficulty"
 				}
 			],
@@ -123461,7 +123605,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				}
@@ -123476,7 +123620,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "item"
 				}
@@ -123492,25 +123636,25 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "notInScoring"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "isBadAffix"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "isDmgAffix"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "syncBetweenPairedItems"
@@ -123526,21 +123670,21 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "color"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "chance"
 				}
@@ -123631,12 +123775,12 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "step"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"name": "item"
 				}
@@ -123665,50 +123809,50 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "camFogTopAlpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "camFogBotAlpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lensDustBigAlpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lensDustSmallAlpha"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "lensDustBigColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "lensDustSmallColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "camFogTopColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "camFogBotColor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "ambianceChangeBufferSize"
 				}
@@ -123723,16 +123867,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"name": "icon"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "color"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				}
@@ -123779,33 +123923,33 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "inStone"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "minDistBetweenThem"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "outOfStoneInstantly"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "inEgg"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "inDoor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "spawnChance"
@@ -123822,12 +123966,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"display": null,
 					"name": "type"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "number"
@@ -123844,195 +123988,195 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "brutalityTier"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "timedDoor"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "timedBlueprint"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "timedGoldMul"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "timedScrolls"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "survivalTier"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "flaskRefills"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "numHallway"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "wind"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "viewerColor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "viewerOffsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "viewerY"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "musicIntro"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "musicLoop"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "doorColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "zDoorColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "chromaColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "loadingColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "loadingDescColor"
 				},
 				{
-					"typeStr": "5:Pull,Bullets,Shooter",
+					"typeStr": "Enum:Pull,Bullets,Shooter",
 					"opt": true,
 					"name": "levelSpecificTrap"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "levelTrapFrequency"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "perfectKillsDoor"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "perfectKillsBetterReward"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "minPerfectKillsMobCount"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "propsOuterGlow"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "propsInnerGlow"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "droneMusic"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "horizon"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "noAdditionalElite"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "glowTextureSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "glowTextureScale"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "fogColor"
 				},
 				{
-					"typeStr": "5:Indoor,Outdoor,Underground",
+					"typeStr": "Enum:Indoor,Outdoor,Underground",
 					"name": "biomeType"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "weaponShopMusic"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "healShopMusic"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "defaultShopMusic"
@@ -124048,96 +124192,96 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "difficultyLevel"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "levelSettings"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "extraMobDensity"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "extraLootLevel"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "minAmuletLevel"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "cellDropMultiplier"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "approxUpMobTierRatio"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "goldRatio"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "eliteExtraLife"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "bossExtraLife"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"name": "forgeCaps"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "levelsWithCursedMobsCap"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "fountainLockLevel"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "carriedInfection"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "exitsLocked"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "aggressiveMobs"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "extraElitesPerLevel"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "maxUpLevelForStartItems"
 				}
 			],
@@ -125951,11 +126095,11 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "animId"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "modes"
 				}
 			],
@@ -128407,15 +128551,15 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:LookToBg,FlipHead,PartiallyHiddenHead,Behind,Attack",
+					"typeStr": "Enum:LookToBg,FlipHead,PartiallyHiddenHead,Behind,Attack",
 					"name": "mode"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "startFrame"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "endFrame"
 				}
@@ -128439,12 +128583,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:biome",
+					"typeStr": "Ref:biome",
 					"display": null,
 					"name": "biome"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "zDoorColor"
 				}
 			],
@@ -128459,23 +128603,23 @@
 			},
 			"columns": [
 				{
-					"typeStr": "10:Outside,StartEmpty,DisableTopCollExt,DisableBottomCollExt,KeepFountainDiff1,HasMinorFlaskRefill,HasForge,PlainRoomTop,PlainSideCols,EmptySideCols,GenAllTeleports,ElitesInEveryRoom,NoTeleport,IgnoreQuarterUpGen,CanSpawnBank,CollisionOutOfRoom,NotUsed,CannotBeCursed",
+					"typeStr": "Flags:Outside,StartEmpty,DisableTopCollExt,DisableBottomCollExt,KeepFountainDiff1,HasMinorFlaskRefill,HasForge,PlainRoomTop,PlainSideCols,EmptySideCols,GenAllTeleports,ElitesInEveryRoom,NoTeleport,IgnoreQuarterUpGen,CanSpawnBank,CollisionOutOfRoom,NotUsed,CannotBeCursed",
 					"name": "genFlags"
 				},
 				{
-					"typeStr": "10:NoLoot,NoExtraHeal,EnoughGoldInLevel,NoMobCell,NoGold,AllScrollsOnMobs,NoCollector,NoMobBlueprints",
+					"typeStr": "Flags:NoLoot,NoExtraHeal,EnoughGoldInLevel,NoMobCell,NoGold,AllScrollsOnMobs,NoCollector,NoMobBlueprints",
 					"name": "lootFlags"
 				},
 				{
-					"typeStr": "10:PoisonWater,LowCamera,HighCamera,HasDarkness,CorruptedWater,DestroyEverything",
+					"typeStr": "Flags:PoisonWater,LowCamera,HighCamera,HasDarkness,CorruptedWater,DestroyEverything",
 					"name": "gameplayFlags"
 				},
 				{
-					"typeStr": "10:IsBossLevel,Spoiler,NoWorldMap,WorldMapSpecial,NoTraining",
+					"typeStr": "Flags:IsBossLevel,Spoiler,NoWorldMap,WorldMapSpecial,NoTraining",
 					"name": "metaFlags"
 				},
 				{
-					"typeStr": "10:HasReflect,NoCritter,HasHorizon",
+					"typeStr": "Flags:HasReflect,NoCritter,HasHorizon",
 					"name": "visualFlags"
 				}
 			],
@@ -128489,11 +128633,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"name": "item"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "minDifficulty"
 				}
@@ -128506,64 +128650,64 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "6:room",
+					"typeStr": "Ref:room",
 					"opt": true,
 					"name": "room"
 				},
 				{
-					"typeStr": "5:EmptyPlaceholder,ArtNeeded,TextNeeded,Done,NeedTextValidation",
+					"typeStr": "Enum:EmptyPlaceholder,ArtNeeded,TextNeeded,Done,NeedTextValidation",
 					"name": "status"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "Intention"
 				},
 				{
-					"typeStr": "10:King,Collector,SewerAccess,Infection,Behemoth,Beholder,TimeMaster,Gardener,Fisherfish",
+					"typeStr": "Flags:King,Collector,SewerAccess,Infection,Behemoth,Beholder,TimeMaster,Gardener,Fisherfish",
 					"name": "arc"
 				},
 				{
-					"typeStr": "5:InBranch,Inline,ZDoor,RandomNoZDoor",
+					"typeStr": "Enum:InBranch,Inline,ZDoor,RandomNoZDoor",
 					"name": "structMode"
 				},
 				{
-					"typeStr": "5:Common,Uncommon,Rare,Never,Always",
+					"typeStr": "Enum:Common,Uncommon,Rare,Never,Always",
 					"name": "rarity"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "requiredMeta"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "onlyUseOnce"
 				},
 				{
-					"typeStr": "6:room",
+					"typeStr": "Ref:room",
 					"opt": true,
 					"name": "requiredLore"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "levels"
 				},
 				{
-					"typeStr": "5:Weapon,Active,WeaponOrActive,Talisman,Food,MeleeWeapon,RangedWeapon,InfectedSmallFood,InfectedBigFood",
+					"typeStr": "Enum:Weapon,Active,WeaponOrActive,Talisman,Food,MeleeWeapon,RangedWeapon,InfectedSmallFood,InfectedBigFood",
 					"opt": true,
 					"name": "roomLoot"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "sprites"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "fxEmitters"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "examinables"
 				}
@@ -162790,43 +162934,43 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"kind": "localizable",
 					"name": "label"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "knownLabel"
 				},
 				{
-					"typeStr": "5:Any,Left,Right",
+					"typeStr": "Enum:Any,Left,Right",
 					"name": "examineFrom"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"display": null,
 					"opt": true,
 					"name": "customItemDrop"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "autoExamOnce"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "hideToolTip"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "events"
 				}
@@ -162841,67 +162985,67 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "customEvent"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "lookOpposite"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "lookAt"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"kind": "localizable",
 					"name": "text"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "isNpcSpeech"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "anim"
 				},
 				{
-					"typeStr": "5:Loop,OnceAndStopOnLastFrame",
+					"typeStr": "Enum:Loop,OnceAndStopOnLastFrame",
 					"opt": true,
 					"name": "animMode"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "pauseS"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "dropLoot"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "gold"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "destroyThisLine"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "destroyExaminable"
 				}
@@ -162930,28 +163074,28 @@
 			},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "comment"
 				},
 				{
-					"typeStr": "6:biome",
+					"typeStr": "Ref:biome",
 					"opt": true,
 					"name": "biome"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "v0"
 				}
@@ -163468,7 +163612,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"display": null,
 					"opt": true,
 					"name": "level"
@@ -163484,53 +163628,53 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "spriteId"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "frame"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "cx"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "cy"
 				},
 				{
-					"typeStr": "5:None,Add,Alpha",
+					"typeStr": "Enum:None,Add,Alpha",
 					"name": "blendMode"
 				},
 				{
-					"typeStr": "6:layer",
+					"typeStr": "Ref:layer",
 					"opt": true,
 					"name": "layerConf"
 				},
 				{
-					"typeStr": "5:Auto,Back,Front",
+					"typeStr": "Enum:Auto,Back,Front",
 					"name": "depth"
 				},
 				{
-					"typeStr": "6:lightConf",
+					"typeStr": "Ref:lightConf",
 					"display": null,
 					"opt": true,
 					"name": "light"
 				},
 				{
-					"typeStr": "10:BloodOnly",
+					"typeStr": "Flags:BloodOnly",
 					"opt": true,
 					"name": "flags"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "offsetY"
 				}
 			],
@@ -163544,18 +163688,18 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:lightConf",
+					"typeStr": "Ref:lightConf",
 					"display": null,
 					"opt": true,
 					"name": "lightConf"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "cx"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "cy"
 				}
@@ -163571,17 +163715,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "alphaBlack"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "alphaBlue"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "alphaGradientBot"
 				}
@@ -163596,7 +163740,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:affix",
+					"typeStr": "Ref:affix",
 					"display": null,
 					"opt": true,
 					"name": "affix"
@@ -163612,7 +163756,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"kind": "localizable",
 					"name": "text"
@@ -163628,12 +163772,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"display": null,
 					"name": "level"
 				},
 				{
-					"typeStr": "10:VineRune,TeleportRune,RamRune,SpiderRune,Bc1,Bc2,Bc3,Bc4,Bc5,PurpleQuestPart1,PurpleQuestPart2",
+					"typeStr": "Flags:VineRune,TeleportRune,RamRune,SpiderRune,Bc1,Bc2,Bc3,Bc4,Bc5,PurpleQuestPart1,PurpleQuestPart2",
 					"name": "gates"
 				}
 			],
@@ -163647,27 +163791,27 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "cx"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "cy"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "wid"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "hei"
 				}
@@ -163682,22 +163826,22 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:roomType",
+					"typeStr": "Ref:roomType",
 					"display": null,
 					"name": "roomType"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "wid"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "hei"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "exactValues"
 				}
@@ -163716,44 +163860,44 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"name": "item"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "model"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "colorMap"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "consoleCmdId"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "head"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "onlyDefaultHead"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "glowData"
 				},
 				{
-					"typeStr": "5:Normal,Add",
+					"typeStr": "Enum:Normal,Add",
 					"name": "scarfBlendMode"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "scarfs"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "incompatibleHeads"
 				}
 			],
@@ -174463,38 +174607,38 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "glowKey"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "glowInner"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "glowOuter"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "isAnimated"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationIntensity"
 				},
 				{
-					"typeStr": "5:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
+					"typeStr": "Enum:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
 					"opt": true,
 					"name": "animationMask"
 				}
@@ -174509,71 +174653,71 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "sprId"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "onFront"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "cosOffset"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "gravity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "minLength"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "maxLength"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "friction"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "thickness"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "attachOffX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "attachOffY"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "extraSprLength"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				}
 			],
@@ -174587,7 +174731,7 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"name": "head"
 				}
 			],
@@ -174602,46 +174746,46 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "isCape"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "lockBehind"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "customAttach"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "linkTo"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "oscilFactor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "rotScale"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "backColor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "depthScaleFactor"
 				}
@@ -174656,12 +174800,12 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "from"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"name": "to"
 				}
@@ -174676,16 +174820,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:difficulty",
+					"typeStr": "Ref:difficulty",
 					"display": null,
 					"name": "diff"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "baseMobTier"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "extra"
@@ -174701,16 +174845,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:difficulty",
+					"typeStr": "Ref:difficulty",
 					"display": null,
 					"name": "diff"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "mobTiers"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"opt": true,
 					"name": "extras"
@@ -174726,26 +174870,26 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"display": null,
 					"name": "level"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "mobAtkTier"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "extraAtkTiers"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "mobLifeTier"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "extraLifeTier"
 				}
@@ -174778,89 +174922,89 @@
 			},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "name"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "tileName"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "pivotX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "pivotY"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "fill"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "position"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "scrollX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "scrollY"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "scaling"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "reflected"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "isCloud"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "scatter"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "innerGlow"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "outerGlow"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "6:layer",
+					"typeStr": "Ref:layer",
 					"opt": true,
 					"name": "layer"
 				},
 				{
-					"typeStr": "5:None,Alpha,Add,AlphaAdd,SoftAdd,Multiply,Erase,Screen,Sub,Max,Min",
+					"typeStr": "Enum:None,Alpha,Add,AlphaAdd,SoftAdd,Multiply,Erase,Screen,Sub,Max,Min",
 					"display": null,
 					"name": "blendMode"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "visible"
 				}
 			],
@@ -174875,92 +175019,92 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:None,Regular,Randomized",
+					"typeStr": "Enum:None,Regular,Randomized",
 					"name": "hfill"
 				},
 				{
-					"typeStr": "5:None,Regular,Randomized",
+					"typeStr": "Enum:None,Regular,Randomized",
 					"name": "vfill"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "minSpaceX"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxSpaceX"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "minSpaceY"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxSpaceY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "densityX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "densityY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "fromX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "toX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "fromY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "toY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scrollX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "scrollY"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "randomAdditionalTile"
@@ -174977,22 +175121,22 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "levelX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "levelY"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "offsetY"
 				}
@@ -175008,17 +175152,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:None,ToBounds,ToSelf",
+					"typeStr": "Enum:None,ToBounds,ToSelf",
 					"name": "type"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "scaleX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "scaleY"
@@ -175035,105 +175179,105 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "flipX"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "flipY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "alpha"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "aboveSurface"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "customCentered"
 				},
 				{
-					"typeStr": "5:DP_BACKGROUND,DP_ROOM_WALLS_BG,DP_ROOM_WALLS,DP_ROOM_WALLS_FX,DP_ROOM_BACK_DECO,DP_ROOM_BACK,DP_ROOM_BACK_FX,DP_ROOM_MAIN_BACK,DP_ROOM_MAIN,DP_ROOM_MAIN_HERO,DP_ROOM_FRONT_HERO,DP_ROOM_MAIN_FX,DP_ROOM_FRONT,DP_ROOM_SMOKE,DP_FOREGROUND_BG,DP_FOREGROUND,DP_FOREGROUND_FX,DP_CTX_UI,DP_DEBUG,DP_MAX",
+					"typeStr": "Enum:DP_BACKGROUND,DP_ROOM_WALLS_BG,DP_ROOM_WALLS,DP_ROOM_WALLS_FX,DP_ROOM_BACK_DECO,DP_ROOM_BACK,DP_ROOM_BACK_FX,DP_ROOM_MAIN_BACK,DP_ROOM_MAIN,DP_ROOM_MAIN_HERO,DP_ROOM_FRONT_HERO,DP_ROOM_MAIN_FX,DP_ROOM_FRONT,DP_ROOM_SMOKE,DP_FOREGROUND_BG,DP_FOREGROUND,DP_FOREGROUND_FX,DP_CTX_UI,DP_DEBUG,DP_MAX",
 					"opt": true,
 					"name": "customDepth"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "vFillAngle"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "disableInZDoor"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "topDensity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "midDensity"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "prct"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "rotation"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "range"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "angle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scrollY"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "normalMap"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetY"
 				}
@@ -175146,24 +175290,24 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"name": "item"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "properties"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "particleEffects"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "glowData"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "atlas"
 				}
@@ -178842,49 +178986,49 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Head,Eye,Back",
+					"typeStr": "Enum:Head,Eye,Back",
 					"name": "part"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "baseSpr"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "anims"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "scale"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "colorDark"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "colorLight"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "alwaysShow"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "showBack"
 				}
 			],
@@ -178898,27 +179042,27 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:particleConf",
+					"typeStr": "Ref:particleConf",
 					"name": "particleConf"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "tickRate"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "staticCount"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "movingCount"
 				},
 				{
-					"typeStr": "5:Alpha,Add",
+					"typeStr": "Enum:Alpha,Add",
 					"name": "blendMode"
 				},
 				{
-					"typeStr": "10:UseHeadDir,HeadSmokePhysics,UseHeadBlackColor,NeedEye,NeedHomunculus,CustomCode",
+					"typeStr": "Flags:UseHeadDir,HeadSmokePhysics,UseHeadBlackColor,NeedEye,NeedHomunculus,CustomCode",
 					"name": "fxFlags"
 				}
 			],
@@ -178932,36 +179076,36 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "glowKey"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "glowInner"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"name": "glowOuter"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "isAnimated"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationSpeed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "animationIntensity"
 				},
 				{
-					"typeStr": "5:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
+					"typeStr": "Enum:PerlinNoise,RgbCloud,RgbNoise,DarknessCloud,DarknessScreenEffect",
 					"opt": true,
 					"name": "animationMask"
 				}
@@ -178976,16 +179120,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Base,Attack,Fire,Electric",
+					"typeStr": "Enum:Base,Attack,Fire,Electric",
 					"name": "mode"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "states"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"display": null,
 					"name": "transitions"
 				}
@@ -179000,16 +179144,16 @@
 			},
 			"columns": [
 				{
-					"typeStr": "5:Idle,Fall,Run",
+					"typeStr": "Enum:Idle,Fall,Run",
 					"name": "state"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "animId"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "animSpd"
 				}
@@ -179024,21 +179168,21 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "animId"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "from"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "to"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "animSpd"
 				}
@@ -179053,35 +179197,35 @@
 			},
 			"columns": [
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "base"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "attack"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "fire"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "electric"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "offsetX"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "scale"
 				}
 			],
@@ -179095,54 +179239,54 @@
 			},
 			"columns": [
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "idle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "fall"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fallSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "run"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "runSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idleToRun"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleToRunSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "runToIdle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "runToIdleSpd"
@@ -179159,60 +179303,60 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "active"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "fall"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fallSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "run"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "runSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idleToRun"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleToRunSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "runToIdle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "runToIdleSpd"
@@ -179229,60 +179373,60 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "active"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "fall"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fallSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "run"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "runSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idleToRun"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleToRunSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "runToIdle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "runToIdleSpd"
@@ -179299,60 +179443,60 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "active"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "fall"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "fallSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "run"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "runSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "idleToRun"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "idleToRunSpd"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"name": "runToIdle"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "runToIdleSpd"
@@ -179366,19 +179510,19 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "pressHidden"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "lockByDefault"
 				}
 			],
@@ -179449,30 +179593,30 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "fxStartFrame"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "fxOffset"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "fxScale"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "fxInnerColor"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "fxOuterColor"
@@ -179486,33 +179630,33 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "tile"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "folderName"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"opt": true,
 					"kind": "localizable",
 					"name": "description"
 				},
 				{
-					"typeStr": "6:dlc",
+					"typeStr": "Ref:dlc",
 					"opt": true,
 					"name": "dlc"
 				}
@@ -179575,40 +179719,40 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "ruleId"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"kind": "localizable",
 					"name": "title"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "description"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "props"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "minTier"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "maxTier"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "isActive"
 				}
 			],
@@ -180022,59 +180166,59 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "value"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "heroDamageBonus"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "mobDamageBonus"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "minEliteTransformationCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "maxEliteTransformationCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "minMobSpawningCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "maxMobSpawningCD"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "volteDividerValue"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speedMultiplierValue"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "aggroTeleportCharge"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "alertRange"
 				}
@@ -180087,24 +180231,24 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"kind": "localizable",
 					"name": "name"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "sounds"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "skills"
 				}
 			],
@@ -180330,76 +180474,76 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "heroLife"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "rallyPerHit"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "rallyPerHitCap"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "rallyLossPct"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rallyLossTick"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "unrallyableDamage"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "globalShieldRallyMalus"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "runSpd"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speedComboRun"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speedComboRoll"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speedComboClimb"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speedComboMaxMobs"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "speedComboDecayTime"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "speedComboDecayKills"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "onHitGlobalShield"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "coyoteTime"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "gravityFactor"
 				}
 			],
@@ -180413,36 +180557,36 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:heroSkill",
+					"typeStr": "Ref:heroSkill",
 					"display": null,
 					"name": "skill"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "duration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "cooldown"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "requiredItem"
 				},
 				{
-					"typeStr": "6:item",
+					"typeStr": "Ref:item",
 					"opt": true,
 					"name": "forbiddenItem"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"opt": true,
 					"name": "props"
 				},
 				{
-					"typeStr": "10:TwitchOnly",
+					"typeStr": "Flags:TwitchOnly",
 					"opt": true,
 					"name": "flags"
 				}
@@ -180458,27 +180602,27 @@
 			},
 			"columns": [
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"name": "dmg"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"name": "death"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"name": "stun"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"name": "fall"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"name": "duck"
 				}
 			],
@@ -180493,108 +180637,108 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "power2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "buff"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "buff2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "radius"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "radius2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "threshold"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "pct"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color2"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"display": null,
 					"opt": true,
 					"name": "color3"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "affect"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "pct2"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "power3"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"opt": true,
 					"name": "pct3"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "alpha"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration3"
 				}
@@ -180607,7 +180751,7 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -180659,23 +180803,23 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "name"
 				},
 				{
-					"typeStr": "8",
+					"typeStr": "List",
 					"name": "bosses"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "baseLootLevel"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"name": "longModeLength"
 				}
 			],
@@ -180818,17 +180962,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "6:mob",
+					"typeStr": "Ref:mob",
 					"display": null,
 					"name": "boss"
 				},
 				{
-					"typeStr": "6:level",
+					"typeStr": "Ref:level",
 					"display": null,
 					"name": "level"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "props"
 				}
 			],
@@ -180843,76 +180987,76 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "cd"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "lock"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "heal"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "mul"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "delay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "max"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "extraAtk"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "buff"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "extraMob0"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "extraMob1"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "charge"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"opt": true,
 					"name": "invincibility"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "teleportExit"
 				}
@@ -180925,73 +181069,73 @@
 			"props": {},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"display": null,
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"display": null,
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"display": null,
 					"name": "comment"
 				},
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"display": null,
 					"name": "maxUses"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": 1,
 					"name": "chance"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "globalCd"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "retryCd"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "minDist"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "maxDist"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "startup"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "execute"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "recovery"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"display": null,
 					"name": "props"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"display": null,
 					"name": "ignoreGlobalCd"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "active"
 				}
 			],
@@ -181306,17 +181450,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "time"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "anim"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"opt": true,
 					"name": "sfx"
 				}
@@ -181332,17 +181476,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "time"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "anim"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfx"
@@ -181359,17 +181503,17 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"name": "time"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"opt": true,
 					"name": "anim"
 				},
 				{
-					"typeStr": "13",
+					"typeStr": "File",
 					"display": null,
 					"opt": true,
 					"name": "sfx"
@@ -181386,70 +181530,70 @@
 			},
 			"columns": [
 				{
-					"typeStr": "3",
+					"typeStr": "Int",
 					"opt": true,
 					"name": "count"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetCx"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetCy"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "delay"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "bumpX"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "bumpY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "radius"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "power"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "offsetY"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"display": null,
 					"opt": true,
 					"name": "speed"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"opt": true,
 					"name": "min"
 				},
 				{
-					"typeStr": "16",
+					"typeStr": "Dynamic",
 					"display": null,
 					"opt": true,
 					"name": "max"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "duration"
 				}
@@ -181468,15 +181612,15 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "desc"
 				}
 			],
@@ -181584,11 +181728,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181648,11 +181792,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181712,11 +181856,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181749,11 +181893,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181795,11 +181939,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181832,11 +181976,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "14",
+					"typeStr": "TilePos",
 					"name": "icon"
 				},
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				}
 			],
@@ -181890,43 +182034,43 @@
 			},
 			"columns": [
 				{
-					"typeStr": "0",
+					"typeStr": "Id",
 					"name": "id"
 				},
 				{
-					"typeStr": "1",
+					"typeStr": "String",
 					"name": "sprName"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "posProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "physicsProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "scaleProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "rotProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "colorProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "alphaProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "lifeProps"
 				},
 				{
-					"typeStr": "17",
+					"typeStr": "Properties",
 					"name": "animProps"
 				}
 			],
@@ -184381,20 +184525,20 @@
 			},
 			"columns": [
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "posMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "posMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "xMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "yMirror"
 				}
@@ -184410,91 +184554,91 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "speedXMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "speedYMirror"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "speedMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "speedMax"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "gravityMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "gravityMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "gravityXMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "gravityYMirror"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "frictMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "frictMax"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "destMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "destMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "frictMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "destXMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "destYMirror"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "awayFromMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"opt": true,
 					"name": "awayFromMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "awayFromXMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "awayFromYMirror"
 				}
@@ -184510,44 +184654,44 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "scaleYMirror"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "scaleXMirror"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "scaleMin"
 				},
 				{
-					"typeStr": "18",
+					"typeStr": "Point",
 					"name": "scaleMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "uniformScale"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scaleMulSpeedMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scaleMulSpeedMax"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scaleAddSpeedMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "scaleAddSpeedMax"
 				}
@@ -184563,23 +184707,23 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rotMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rotMax"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rotSpeedMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "rotSpeedMax"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "rotSpeedMirror"
 				}
@@ -184595,22 +184739,22 @@
 			},
 			"columns": [
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "colorStart"
 				},
 				{
-					"typeStr": "11",
+					"typeStr": "Color",
 					"opt": true,
 					"name": "colorEnd"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "colorAnimDurationMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "colorAnimDurationMax"
 				}
@@ -184626,19 +184770,19 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "alphaMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "alphaMax"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "fadeInDuration"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "fadeOutDuration"
 				}
 			],
@@ -184653,11 +184797,11 @@
 			},
 			"columns": [
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "lifeDurationMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"name": "lifeDurationMax"
 				}
 			],
@@ -184672,21 +184816,21 @@
 			},
 			"columns": [
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"name": "animated"
 				},
 				{
-					"typeStr": "2",
+					"typeStr": "Bool",
 					"opt": true,
 					"name": "loop"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "animSpeedMin"
 				},
 				{
-					"typeStr": "4",
+					"typeStr": "Float",
 					"opt": true,
 					"name": "animSpeedMax"
 				}
